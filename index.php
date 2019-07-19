@@ -50,14 +50,16 @@ class Soil extends GrowthElements{
   protected $n;
   protected $p;
   protected $k;
+  protected $Ca;
   protected $solar;
 
-  public function __construct($name, $water, $n, $p, $k, $solar){
+  public function __construct($name, $water, $n, $p, $k, $Ca, $solar){
     $this->name = $name;
     $this->water = $water;
     $this->n = $n;
     $this->p = $p;
     $this->k = $k;
+    $this->Ca = $Ca;
     $this->solar = $solar;
   }
   public function setWater($num){
@@ -83,6 +85,12 @@ class Soil extends GrowthElements{
   }
   public function getK(){
     return $this->k;
+  }
+  public function setCa($num){
+    $this->Ca = $num;
+  }
+  public function getCa(){
+    return $this->Ca;
   }
   public function setSolar($num){
     $this->solar = $num;
@@ -121,6 +129,11 @@ class Soil extends GrowthElements{
     $actionPoint = 10;
     $targetObj->setK($targetObj->getK()+$actionPoint);
     History::set($_SESSION['vegetable']->getName().'に　かりうむ肥料を与えました');
+  }
+  public function fertilizeCa($targetObj){
+    $actionPoint = 10;
+    $targetObj->setCa($targetObj->getCa()+$actionPoint);
+    History::set($_SESSION['vegetable']->getName().'に　カルシウム肥料を与えました');
   }
 
   public function rain($targetObj){
@@ -177,9 +190,9 @@ class History implements HistoryInterface{
 $vegetables[] = new Vegetable('トマト');
 $vegetables[] = new Vegetable('キュウリ');
 $vegetables[] = new Vegetable('キャベツ');
-$soils[] = new Soil('土A',50,50,50,50,0);
-$soils[] = new Soil('土B',30,30,30,30,0);
-$soils[] = new Soil('土C',10,10,10,10,0);
+$soils[] = new Soil('土A',50,50,50,50,10,0);
+$soils[] = new Soil('土B',30,30,30,30,10,0);
+$soils[] = new Soil('土C',10,10,10,10,10,0);
 $weathers[] = new Weather('晴れ',0,10);
 $weathers[] = new Weather('雨',30,0);
 
@@ -275,6 +288,9 @@ if(!empty($_POST)){
         case 'k':
           $_SESSION['soil']->fertilizeK($_SESSION['soil']);
           break;
+        case 'Ca':
+          $_SESSION['soil']->fertilizeCa($_SESSION['soil']);
+          break;
         case 'allFtl':
           $_SESSION['soil']->fertilizeAll($_SESSION['soil']);
           break;
@@ -301,6 +317,27 @@ if(!empty($_POST)){
   if($_SESSION['dayCount'] >= 11){
     $resultFlg = true;
   }
+  
+  //栽培レベル判断
+  
+  $_SESSION['growLevel'] = 1;
+  $waterLevel = $_SESSION['soil']->getWater();
+  $nLevel = $_SESSION['soil']->getN();
+  $pLevel = $_SESSION['soil']->getP();
+  $kLevel = $_SESSION['soil']->getK();
+  $CaLevel = $_SESSION['soil']->getCa();
+  $soLevel = $_SESSION['soil']->getSolar();
+  
+
+  //レベル３
+  if($waterLevel > 270 && $nLevel >60 && $pLevel > 60 && $kLevel > 60 && $CaLevel > 20 && $soLevel > 40){
+    $_SESSION['growLevel'] = 3;
+  }
+  //レベル２
+  elseif($waterLevel > 50 && $nLevel >50 && $pLevel > 50 && $kLevel > 50 && $CaLevel > 10 && $soLevel > 20){
+    $_SESSION['growLevel'] = 2;
+  }
+  
 }
   
 
@@ -320,8 +357,67 @@ if(!empty($_POST)){
     body {
       line-height: 150%;
     }
+    .site-width{
+      width: 736px;
+      margin: 0 auto;
+    }
+    .wrap{
+      background: #ffffe0;
+      position: relative;
+    }
+    
+    .wrap .title-logo img{
+      width: 400px;
+      position: absolute;
+      right: 30px;
+      top:50px;
+    }
+    
+    .wrap .main-img img{
+      position: relative;
+      width: 500px;
+      padding-top: 50px;
+    }
+    
+    .wrap form{
+      position: absolute;
+      top: 120px;
+      right: 40px;
+    }
+    .wrap button{
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 50px;
+      background-color:rgba(255,255,255,0.8);
+    }
+    
+    .wrap button:hover{
+      cursor: pointer;
+    }
+    
+    .wrap button {
+      display: inline-block;
+/*      max-width: 180px;*/
+/*      text-align: left;*/
+      border: 2px solid #9ec34b;
+/*      font-size: 16px;*/
+      color: #9ec34b;
+      text-decoration: none;
+      font-weight: bold;
+/*      padding: 8px 16px;*/
+      border-radius: 4px;
+      transition: .4s;
+    }
 
-    .img p {
+    .wrap button:hover {
+      background-color: #9ec34b;
+      border-color: #cbe585;
+      color: #FFF;
+    }
+    
+    .status p {
       font-size: 25px;
     }
 
@@ -344,19 +440,38 @@ if(!empty($_POST)){
 </head>
 
 <body>
-  <div class="container">
+  <div id="contents" class="site-width">
 
     <!--   初期画面-->
     <?php if($restartFlg){ ?>
-    <form method="post">
-      <h2> スタート？</h2>
-      <input type="submit" name="start" value="▶️スタート">
-    </form>
-
+    <div class="wrap">
+     
+      <div class="title-logo">
+        <img src="img/cooltext330609163954278.png" alt="">
+      </div>
+      
+      <div class="main-img">
+        <img src="img/sozai_image_68166.png" alt="">
+      </div>
+      
+      <form method="post">
+       <button type="submit" name="start" value="はじめる">はじめる</button>
+<!--        <input type="submit" name="start" value="▶️スタート" height="50">-->
+      </form>
+    
+    </div>
     <!--    結果発表画面-->
     <?php }else if($resultFlg){ ?>
-    <div class="result">
-      結果はっぴょ〜〜！
+    <div class="wrap">
+      <h1>結果はっぴょ〜〜！</h1>
+      <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
+      <div class="main-img">
+        <img src="
+         <?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
+              elseif($_SESSION['growLevel'] === 2){echo 'img/level2.png';}
+              elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
+          ?>" alt="">
+      </div>
       <div class="button">
          <form method="post">
            <input type="submit" name="restart" value="リスタート">
@@ -369,14 +484,18 @@ if(!empty($_POST)){
     <!--    通常画面-->
     <?php }else{ ?>
     <h1><?php echo $_SESSION['vegetable']->getName().'　を育てる！' ?></h1>
-    <h2>今日は<?php echo $_SESSION['dayCount']; ?>日目です。
-      <?php echo ($_SESSION['dayCount'] != 10) ? 11-$_SESSION['dayCount'] : '最終日です！'; ?></h2>
-  
+    <h2><span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。（全10日間）</span>
+    </h2>
+    <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
+    
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
       <p>P:<?php echo $_SESSION['soil']->getP(); ?></p>
       <p>K:<?php echo $_SESSION['soil']->getK(); ?></p>
+      <p>Ca:<?php echo $_SESSION['soil']->getCa(); ?></p>
+      <p>日光:<?php echo $_SESSION['soil']->getSolar(); ?></p>
+
       <p>天気:<?php echo $_SESSION['weather']->getName(); ?></p>
     </div>
     <form method="post">
@@ -386,6 +505,7 @@ if(!empty($_POST)){
         <input type="radio" name="action" value="p">りん
         <input type="radio" name="action" value="k">かりうむ
         <input type="radio" name="action" value="allFtl">バランス肥料
+        <input type="radio" name="action" value="Ca">カルシウム
       </div>
       <div class="weather">
         <input type="radio" name="weather" value="fine" <?php echo ($_SESSION['weather']->getName() == '晴れ') ? 'checked' : ''; ?>>晴れ
@@ -402,18 +522,13 @@ if(!empty($_POST)){
       </div>
 
     </form>
-
-    <?php } ?>
     <div class="history">
       <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
     </div>
+    <?php } ?>
+
 
   </div>
-
-a
-
-
-
 
 
 
