@@ -29505,3 +29505,6400 @@ Stack trace:
 )
 
 [20-Jul-2019 08:24:18 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:29:31 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:29:31 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:29:31 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:29:31 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:29:31 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:29:45 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:29:45 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:29:45 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => fine
+)
+
+[20-Jul-2019 08:29:45 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:29:45 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:29:48 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:29:48 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:29:48 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => fine
+)
+
+[20-Jul-2019 08:29:48 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 20
+            [solar:protected] => 10
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 2
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:29:48 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:29:51 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:29:51 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:29:51 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => fine
+)
+
+[20-Jul-2019 08:29:51 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 3
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:29:51 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:29:56 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:29:56 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:29:56 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 08:29:56 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 40
+            [solar:protected] => 30
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 4
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:29:56 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:00 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:00 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:00 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:00 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 60
+            [p:protected] => 60
+            [k:protected] => 60
+            [Ca:protected] => 40
+            [solar:protected] => 40
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 5
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:00 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:06 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:06 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:06 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:06 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 6
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:06 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:09 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:09 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:09 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:09 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 90
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 7
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:09 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:12 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:12 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:12 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:12 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 130
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 8
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:12 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:14 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:14 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:14 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:14 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 170
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 9
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:14 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:16 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:16 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:16 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:16 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 210
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 10
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:25 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:25 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:25 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:30:25 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 250
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 40
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+)
+
+[20-Jul-2019 08:30:25 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:32 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:32 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:32 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:32 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:30:32 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:37 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:37 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:37 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:37 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 60
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 20
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 2
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:37 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:40 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:40 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:40 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:40 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 70
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 3
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:40 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:44 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:44 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:44 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:44 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 70
+            [n:protected] => 60
+            [p:protected] => 60
+            [k:protected] => 60
+            [Ca:protected] => 30
+            [solar:protected] => 10
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 4
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:44 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:48 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:48 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:48 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:48 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 70
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 5
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:48 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:49 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:49 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:49 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:49 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 100
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 30
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 6
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:49 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:51 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:51 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:51 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => fine
+)
+
+[20-Jul-2019 08:30:51 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 130
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 40
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 7
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:51 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:30:54 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:54 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:54 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:54 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 8
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 08:30:54 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:30:57 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:30:57 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:30:57 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:30:57 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 200
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 9
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:30:57 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:31:00 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:31:00 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:31:00 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 08:31:00 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 240
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 10
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトに　カルシウム肥料を与えました<br>雨が降りました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 08:31:14 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:31:14 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:31:14 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:31:14 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 280
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 3
+)
+
+[20-Jul-2019 08:31:14 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:32:27 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:32:27 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:32:27 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:32:27 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:32:27 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:34:45 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:34:45 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:34:45 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:34:45 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:34:45 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:35:24 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:35:24 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:35:24 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:35:24 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 08:35:24 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:42:47 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:42:47 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:42:47 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:42:47 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:42:47 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:43:57 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:43:57 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:43:57 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:43:57 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:43:57 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:47:07 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:47:07 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:47:07 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:47:07 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:47:07 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:47:38 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:47:38 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:47:38 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:47:38 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:47:38 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:47:55 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:47:55 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:47:55 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:47:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:47:55 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:48:17 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:48:17 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:48:17 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:48:17 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:48:17 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:50:50 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:50:50 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:50:50 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:50:50 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:50:50 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:50:54 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:50:54 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:50:54 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:50:54 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 08:50:54 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:55:10 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:55:10 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:55:10 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:55:10 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:55:10 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:57:13 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:57:13 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:57:13 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:57:13 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:57:13 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 08:57:23 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:57:23 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:57:23 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:57:23 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:57:23 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 08:57:54 Asia/Tokyo] POSTされた！
+[20-Jul-2019 08:57:54 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 08:57:54 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 08:57:54 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 08:57:54 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:08:45 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:08:45 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:08:45 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:08:45 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:08:45 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:08:50 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:08:50 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:08:50 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:08:50 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:08:50 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:10:18 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:10:18 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:10:18 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:10:18 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:10:18 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:11:10 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:11:10 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:11:10 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:11:10 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:11:10 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:11:36 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:11:36 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:11:36 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:11:36 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:11:36 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:12:01 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:12:01 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:12:01 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:12:01 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:12:01 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:12:49 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:12:49 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:12:49 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:12:49 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:12:49 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:13:34 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:13:34 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:13:34 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:13:34 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:13:34 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:14:08 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:14:08 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:14:08 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:14:08 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 09:14:08 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:15:46 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:15:46 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:15:46 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:15:46 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 09:15:46 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:18:12 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:18:12 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:18:12 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:18:12 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:18:12 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:18:31 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:18:31 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:18:31 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:18:31 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:18:31 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:18:51 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:18:51 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:18:51 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:18:51 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:18:51 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:22:17 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:22:17 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:22:17 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:22:17 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:22:17 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:23:53 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:23:53 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:23:53 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:23:53 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:23:53 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:24:25 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:24:25 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:24:25 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:24:25 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:24:25 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:24:57 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:24:57 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:24:57 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:24:57 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:24:57 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:26:03 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:26:03 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:26:03 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:26:03 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:26:03 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:26:12 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:26:12 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:26:12 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:26:12 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:26:12 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:27:32 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:27:32 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:27:32 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:27:32 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:27:32 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:28:52 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:28:52 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:28:52 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:28:52 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:28:52 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:29:39 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:29:39 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:29:39 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:29:39 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:29:39 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:29:49 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:29:49 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:29:49 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:29:49 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:29:49 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:30:12 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:30:12 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:30:12 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:30:12 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:30:12 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:10 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:10 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:10 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => fine
+)
+
+[20-Jul-2019 09:31:10 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:31:10 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:14 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:14 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:14 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => fine
+)
+
+[20-Jul-2019 09:31:14 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 10
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 2
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 09:31:14 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:16 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:16 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:16 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => Ca
+    [weather] => fine
+)
+
+[20-Jul-2019 09:31:16 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 20
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 3
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 09:31:16 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:18 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:18 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:18 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 09:31:18 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 30
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 4
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 09:31:18 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:24 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:24 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:24 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => fine
+)
+
+[20-Jul-2019 09:31:24 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 60
+            [p:protected] => 60
+            [k:protected] => 60
+            [Ca:protected] => 30
+            [solar:protected] => 40
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 5
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 09:31:24 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:31:27 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:27 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:27 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => allFtl
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:27 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 6
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>
+)
+
+[20-Jul-2019 09:31:27 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:31:28 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:28 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:28 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:28 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 90
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 7
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:31:28 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:31:29 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:29 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:29 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:29 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 130
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 8
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:31:29 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:31:31 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:31 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:31 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:31 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 170
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 9
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:31:31 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:31:32 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:32 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:32 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:32 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 210
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 10
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:31:36 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:36 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:36 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:36 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 250
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 11
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:31:38 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:31:38 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:31:38 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:31:38 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 250
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 12
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:32:55 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:32:55 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:32:55 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 09:32:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 250
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 13
+    [growLevel] => 2
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>トマトに水やりしました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトに　カルシウム肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>トマトが太陽を浴びました<br>トマトにバランス肥料を与えました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>トマトに水やりしました<br>雨が降りました<br>
+)
+
+[20-Jul-2019 09:32:59 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:32:59 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:32:59 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:32:59 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 250
+            [n:protected] => 80
+            [p:protected] => 80
+            [k:protected] => 80
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+)
+
+[20-Jul-2019 09:32:59 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:34:07 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:34:07 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:34:07 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:34:07 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:34:07 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:35:34 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:35:34 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:35:34 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:35:34 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:35:34 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:38:08 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:38:08 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:38:08 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:38:08 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:38:08 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:54:35 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:54:35 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:54:35 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:54:35 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:54:35 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:54:46 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:54:46 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:54:46 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:54:46 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:54:46 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:56:19 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:56:19 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:56:19 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:56:19 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:56:19 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:56:43 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:56:43 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:56:43 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:56:43 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:56:43 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:56:55 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:56:55 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:56:55 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:56:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:56:55 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 09:58:27 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:58:27 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:58:27 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:58:27 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:58:27 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:58:37 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:58:37 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:58:37 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:58:37 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:58:37 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:58:55 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:58:55 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:58:55 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:58:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:58:55 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 09:59:02 Asia/Tokyo] POSTされた！
+[20-Jul-2019 09:59:02 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 09:59:02 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 09:59:02 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 09:59:02 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 10:00:27 Asia/Tokyo] POSTされた！
+[20-Jul-2019 10:00:27 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 10:00:27 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 10:00:27 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 10:00:27 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 10:00:43 Asia/Tokyo] POSTされた！
+[20-Jul-2019 10:00:43 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 10:00:43 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 10:00:43 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 10:00:43 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 10:01:14 Asia/Tokyo] POSTされた！
+[20-Jul-2019 10:01:14 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 10:01:14 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 10:01:14 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 10:01:14 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 10:01:42 Asia/Tokyo] POSTされた！
+[20-Jul-2019 10:01:42 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 10:01:42 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 10:01:42 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 10:01:42 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 10:12:20 Asia/Tokyo] POSTされた！
+[20-Jul-2019 10:12:20 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 10:12:20 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 10:12:20 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 10:12:20 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 14:50:47 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:50:47 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:50:47 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:50:47 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:50:47 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 14:54:40 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:54:40 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:54:40 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:54:40 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:54:40 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 14:55:55 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:55:55 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:55:55 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[20-Jul-2019 14:55:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:55:55 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 14:57:20 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:57:20 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:57:20 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:57:20 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 90
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 14:57:20 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 14:57:33 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 14:57:36 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:57:36 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:57:36 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:57:36 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 14:57:36 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 14:58:13 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:58:13 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:58:13 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:58:13 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:58:13 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 14:58:28 Asia/Tokyo] POSTされた！
+[20-Jul-2019 14:58:28 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 14:58:28 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 14:58:28 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 14:58:28 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:00:04 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:00:04 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:00:04 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:00:04 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 15:00:04 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:00:13 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:00:13 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:00:13 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:00:13 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 15:00:13 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 15:00:16 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:00:16 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:00:16 Asia/Tokyo] デバッグ：post内容Array
+(
+    [action] => water
+    [weather] => fine
+)
+
+[20-Jul-2019 15:00:16 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:00:16 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 15:06:45 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:06:45 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:06:45 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:06:45 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 10
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+)
+
+[20-Jul-2019 15:06:45 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:11:11 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:11:11 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:11:11 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:11:11 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:11:11 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[20-Jul-2019 15:13:47 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:13:47 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:13:47 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:13:47 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:13:47 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:15:37 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:15:37 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:15:37 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:15:37 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:15:37 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:15:39 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:15:39 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:15:39 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:15:39 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:15:39 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[20-Jul-2019 15:16:45 Asia/Tokyo] POSTされた！
+[20-Jul-2019 15:16:45 Asia/Tokyo] デバッグ：restartFlg
+[20-Jul-2019 15:16:45 Asia/Tokyo] デバッグ：post内容Array
+(
+    [start] => はじめる
+)
+
+[20-Jul-2019 15:16:45 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [name:protected] => 勇者見習い
+            [sex:protected] => 1
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [img:protected] => img/monster05.png
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 1
+    [growLevel] => 1
+    [history] => 初期化します<br>トマトを育てよう！<br>土Aを育てよう！<br>
+)
+
+[20-Jul-2019 15:16:45 Asia/Tokyo] デバッグ：天気セッション！！！晴れ

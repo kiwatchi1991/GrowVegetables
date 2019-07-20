@@ -373,16 +373,27 @@ if(!empty($_POST)){
       top:50px;
     }
     
-    .wrap .main-img img{
+    .wrap .main-img{
       position: relative;
-      width: 500px;
+      width: 250px;
       padding-top: 50px;
     }
     
+    .wrap .main-img img{
+      position: relative;
+      width: 200px;
+    }
+/*
+      padding-top: 50px;
+    }
+*/
+    
     .wrap form{
-      position: absolute;
+/*      position: absolute;*/
+/*
       top: 120px;
       right: 40px;
+*/
     }
     .wrap button{
       width: 200px;
@@ -399,14 +410,10 @@ if(!empty($_POST)){
     
     .wrap button {
       display: inline-block;
-/*      max-width: 180px;*/
-/*      text-align: left;*/
       border: 2px solid #9ec34b;
-/*      font-size: 16px;*/
       color: #9ec34b;
       text-decoration: none;
       font-weight: bold;
-/*      padding: 8px 16px;*/
       border-radius: 4px;
       transition: .4s;
     }
@@ -421,20 +428,93 @@ if(!empty($_POST)){
       font-size: 25px;
     }
 
+/*====================================*/
+/*アクションボたん*/
+/*====================================*/
+    .button {
+      clip: rect(1px, 1px, 1px, 1px);
+      position: absolute !important;
+    }
+
+    .radio-inline__label {
+      display: inline-block;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 3px;
+      transition: all .2s;
+      border: 2px solid #9ec34b;
+      color: #9ec34b;
+      background: #fff;
+    }
+
+    .button:hover + .radio-inline__label{
+      cursor: pointer;
+    }
+    
+    .button:checked + .radio-inline__label {
+      background-color: #9ec34b;
+      border-color: #cbe585;
+      color: #FFF;
+      text-shadow: 0 0 1px rgba(0,0,0,.7);
+    }
+
+    .button:focus + .radio-inline__label {
+      outline-color: #FFF;
+      outline-offset: -2px;
+      outline-style: auto;
+      outline-width: 5px;
+/*      cursor: pointer;*/
+    }
+    
+    /*  ↓↓↓↓  晴れボタンのみ*/
+    #fine:checked + .radio-inline__label {
+      background-color: #9ec34b;
+      border-color: #cbe585;
+      color: #000;
+      text-shadow: 0 0 1px rgba(0,0,0,.7);
+    }
+
+    #fine:focus + .radio-inline__label {
+      outline-color: #FFF;
+      outline-offset: -2px;
+      outline-style: auto;
+      outline-width: 5px;
+    }
+    
+    /*    ↓↓↓↓ 雨ボタンのみ*/
+    
+    
+    
     .action {
-      margin-top: 25px;
+/*      margin-top: 25px;*/
+/*      border: 1px solid #333;*/
+      padding-left: 20px;
+/*      margin: 0;*/
+/*      text-align: center;*/
     }
 
     .action,
     .weather {
       font-size: 20px;
+      padding-left: 20px;
     }
 
-    .button input {
+    .weather{
+/*      float: left;*/
+    }
+    
+    .submit-button{
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+    
+    .submit-button input {
       margin-top: 25px;
       font-size: 25px;
     }
 
+    
+    
   </style>
 
 </head>
@@ -472,7 +552,7 @@ if(!empty($_POST)){
               elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
           ?>" alt="">
       </div>
-      <div class="button">
+      <div class="button-restart">
          <form method="post">
            <input type="submit" name="restart" value="リスタート">
          </form>
@@ -483,11 +563,16 @@ if(!empty($_POST)){
 
     <!--    通常画面-->
     <?php }else{ ?>
+  <div class="wrap">
     <h1><?php echo $_SESSION['vegetable']->getName().'　を育てる！' ?></h1>
-    <h2><span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。（全10日間）</span>
-    </h2>
-    <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
-    
+    <div class="status">
+      <span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。（全10日間）</span>
+      <span>
+        現在の栽培ステージ：<?php echo $_SESSION['growLevel']; ?></span>
+    </div>
+      
+
+<!--
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
@@ -498,33 +583,57 @@ if(!empty($_POST)){
 
       <p>天気:<?php echo $_SESSION['weather']->getName(); ?></p>
     </div>
+-->
     <form method="post">
       <div class="action">
-        <input type="radio" name="action" value="water" checked="checked">水
-        <input type="radio" name="action" value="n">ちっそ
-        <input type="radio" name="action" value="p">りん
-        <input type="radio" name="action" value="k">かりうむ
-        <input type="radio" name="action" value="allFtl">バランス肥料
-        <input type="radio" name="action" value="Ca">カルシウム
+       <p>①水やりするか、肥料をやるか、ひとつえらんでね！</p>
+        <input type="radio" id="water" class="button" name="action" value="water" checked="checked">
+          <label class="radio-inline__label" for="water">水</label>
+        <input type="radio" id="n" class="button" name="action" value="n">
+          <label class="radio-inline__label" for="n">ちっそ</label>
+
+        <input type="radio" id="p" class="button" name="action" value="p">
+          <label class="radio-inline__label" for="p">りん</label>
+
+        <input type="radio" id="k" class="button"  name="action" value="k">
+          <label class="radio-inline__label" for="k">かりうむ</label>
+
+        <input type="radio" id="allFtl" class="button"  name="action" value="allFtl">
+          <label class="radio-inline__label" for="allFtl">バランス肥料</label>
+
+        <input type="radio" id="Ca" class="button"  name="action" value="Ca">
+          <label class="radio-inline__label" for="Ca">かるしうむ</label>
+
       </div>
       <div class="weather">
-        <input type="radio" name="weather" value="fine" <?php echo ($_SESSION['weather']->getName() == '晴れ') ? 'checked' : ''; ?>>晴れ
-        <input type="radio" name="weather" value="rain" <?php echo ($_SESSION['weather']->getName() == '雨') ? 'checked' : ''; ?>>雨
+        <p>②明日の天気をえらんでね！（自由にえらべます）</p>
+        <input type="radio" id="fine" class="button" name="weather" value="fine" <?php echo ($_SESSION['weather']->getName() == '晴れ') ? 'checked' : ''; ?>>
+          <label class="radio-inline__label" for="fine">はれ</label>
+        <input type="radio" id="rain" class="button" name="weather" value="rain" <?php echo ($_SESSION['weather']->getName() == '雨') ? 'checked' : ''; ?>>
+          <label class="radio-inline__label" for="rain">あめ</label>
 
         <?php
         debug('天気セッション！！！' .print_r($_SESSION['weather']->getName(),true));
         ?>
       </div>
 
-      <div class="button">
-        <input type="submit" name="" value="送信">
-        <input type="submit" name="restart" value="リスタート">
-      </div>
+      <form class="submit-button">
+        <button type="submit" name="" value="送信">送信</button>
+        <button type="submit" name="restart" value="リスタート">リスタート</button>
+      </form>
 
+      <div class="main-img">
+        <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
+                elseif($_SESSION['growLevel'] === 2){echo 'img/level2.png';}
+                elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
+                  ?>" alt="">
+      </div>
+   
     </form>
     <div class="history">
       <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
     </div>
+  </div>
     <?php } ?>
 
 
