@@ -238,7 +238,10 @@ function init(){
 
 
 //1.post送信されていた場合
-if(!empty($_POST)){
+if(empty($_POST)){
+  $restartFlg = 1;
+  $resultFlg = 0;
+}else{
   $changeFlg = (!empty($_POST['change'])) ? true : false;
   $startFlg = (!empty($_POST['start'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
