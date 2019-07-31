@@ -102,7 +102,7 @@ class Soil extends GrowthElements{
   public function doWater($targetObj){
     $actionPoint = 30;
     $targetObj->setWater($targetObj->getWater()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'に水やりしました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'に水やりしました');
   }
   
 
@@ -112,40 +112,40 @@ class Soil extends GrowthElements{
     $targetObj->setN($targetObj->getN()+$actionPoint);
     $targetObj->setP($targetObj->getP()+$actionPoint);
     $targetObj->setK($targetObj->getK()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'にバランス肥料を与えました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'にバランス肥料を与えました');
   }
 
   public function fertilizeN($targetObj){
     $actionPoint = 10;
     $targetObj->setN($targetObj->getN()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'に　ちっそ肥料を与えました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'に　ちっそ肥料を与えました');
   }
   public function fertilizeP($targetObj){
     $actionPoint = 10;
     $targetObj->setP($targetObj->getP()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'に　りん肥料を与えました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'に　りん肥料を与えました');
   }
   public function fertilizeK($targetObj){
     $actionPoint = 10;
     $targetObj->setK($targetObj->getK()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'に　かりうむ肥料を与えました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'に　かりうむ肥料を与えました');
   }
   public function fertilizeCa($targetObj){
     $actionPoint = 10;
     $targetObj->setCa($targetObj->getCa()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'に　カルシウム肥料を与えました');
+    History::set('①　'.$_SESSION['vegetable']->getName().'に　カルシウム肥料を与えました');
   }
 
   public function rain($targetObj){
     $actionPoint = 10;
     $targetObj->setWater($targetObj->getWater()+$actionPoint);
-    History::set('雨が降りました');
+    History::set('②　雨です');
   }
   
   public function shineOn($targetObj){
     $actionPoint = 10;
     $targetObj->setSolar($targetObj->getSolar()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'が太陽を浴びました');
+    History::set($_SESSION['vegetable']->getName().'②　晴れです');
   }
 
 
@@ -178,7 +178,7 @@ class History implements HistoryInterface{
     //セッションhistoryが作られてなければ作る
     if(empty($_SESSION['history'])) $_SESSION['history'] = '';
     //文字列をセッションhistoryへ格納
-    $_SESSION['history'] .= $str.'<br>';
+    $_SESSION['history'] .=$_SESSION['dayCount'].'日目: '.$str.'<br>';
   }
   public static function clear(){
     unset($_SESSION['history']);
@@ -227,7 +227,7 @@ function setWeather(){
 
 function init(){
   History::clear();
-  History::set('初期化します');
+  // History::set('初期化します');
   $_SESSION['dayCount'] = 0;
   createVegetable();
   createSoil();
@@ -264,7 +264,7 @@ if(!empty($_POST)){
 
     //ゲームスタートした場合
     if($startFlg){
-      History::set('ゲームスタート！');
+      // History::set('ゲームスタート！');
       init();
       
     }elseif($_SESSION['dayCount'] >= 11)
@@ -349,174 +349,12 @@ if(!empty($_POST)){
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
   <meta charset="UTF-8">
-  <title>MakeSalad</title>
-
-  <style>
-    body {
-      line-height: 150%;
-    }
-    .site-width{
-      width: 736px;
-      margin: 0 auto;
-    }
-    .wrap{
-      background: #ffffe0;
-      position: relative;
-    }
-    
-    .wrap .title-logo img{
-      width: 400px;
-      position: absolute;
-      right: 30px;
-      top:50px;
-    }
-    
-    .wrap .main-img{
-      position: relative;
-      width: 250px;
-      padding-top: 50px;
-    }
-    
-    .wrap .main-img img{
-      position: relative;
-      width: 200px;
-    }
-/*
-      padding-top: 50px;
-    }
-*/
-    
-    .wrap form{
-/*      position: absolute;*/
-/*
-      top: 120px;
-      right: 40px;
-*/
-    }
-    .wrap button{
-      width: 200px;
-      height: 50px;
-      border-radius: 10px;
-      font-size: 20px;
-      line-height: 50px;
-      background-color:rgba(255,255,255,0.8);
-    }
-    
-    .wrap button:hover{
-      cursor: pointer;
-    }
-    
-    .wrap button {
-      display: inline-block;
-      border: 2px solid #9ec34b;
-      color: #9ec34b;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
-      transition: .4s;
-    }
-
-    .wrap button:hover {
-      background-color: #9ec34b;
-      border-color: #cbe585;
-      color: #FFF;
-    }
-    
-    .status p {
-      font-size: 25px;
-    }
-
-/*====================================*/
-/*アクションボたん*/
-/*====================================*/
-    .button {
-      clip: rect(1px, 1px, 1px, 1px);
-      position: absolute !important;
-    }
-
-    .radio-inline__label {
-      display: inline-block;
-      padding: 5px 10px;
-      margin-right: 5px;
-      border-radius: 3px;
-      transition: all .2s;
-      border: 2px solid #9ec34b;
-      color: #9ec34b;
-      background: #fff;
-    }
-
-    .button:hover + .radio-inline__label{
-      cursor: pointer;
-    }
-    
-    .button:checked + .radio-inline__label {
-      background-color: #9ec34b;
-      border-color: #cbe585;
-      color: #FFF;
-      text-shadow: 0 0 1px rgba(0,0,0,.7);
-    }
-
-    .button:focus + .radio-inline__label {
-      outline-color: #FFF;
-      outline-offset: -2px;
-      outline-style: auto;
-      outline-width: 5px;
-/*      cursor: pointer;*/
-    }
-    
-    /*  ↓↓↓↓  晴れボタンのみ*/
-    #fine:checked + .radio-inline__label {
-      background-color: #9ec34b;
-      border-color: #cbe585;
-      color: #000;
-      text-shadow: 0 0 1px rgba(0,0,0,.7);
-    }
-
-    #fine:focus + .radio-inline__label {
-      outline-color: #FFF;
-      outline-offset: -2px;
-      outline-style: auto;
-      outline-width: 5px;
-    }
-    
-    /*    ↓↓↓↓ 雨ボタンのみ*/
-    
-    
-    
-    .action {
-/*      margin-top: 25px;*/
-/*      border: 1px solid #333;*/
-      padding-left: 20px;
-/*      margin: 0;*/
-/*      text-align: center;*/
-    }
-
-    .action,
-    .weather {
-      font-size: 20px;
-      padding-left: 20px;
-    }
-
-    .weather{
-/*      float: left;*/
-    }
-    
-    .submit-button{
-      margin-top: 15px;
-      padding-left: 20px;
-    }
-    
-    .submit-button input {
-      margin-top: 25px;
-      font-size: 25px;
-    }
-
-    
-    
-  </style>
-
+  <title>Grow tomatoes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -524,7 +362,7 @@ if(!empty($_POST)){
 
     <!--   初期画面-->
     <?php if($restartFlg){ ?>
-    <div class="wrap">
+    <div id="start" class="wrap">
      
       <div class="title-logo">
         <img src="img/cooltext330609163954278.png" alt="">
@@ -542,7 +380,7 @@ if(!empty($_POST)){
     </div>
     <!--    結果発表画面-->
     <?php }else if($resultFlg){ ?>
-    <div class="wrap">
+    <div id="result" class="wrap">
       <h1>結果はっぴょ〜〜！</h1>
       <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
       <div class="main-img">
@@ -563,8 +401,13 @@ if(!empty($_POST)){
 
     <!--    通常画面-->
     <?php }else{ ?>
-  <div class="wrap">
-    <h1><?php echo $_SESSION['vegetable']->getName().'　を育てる！' ?></h1>
+  <div id="main" class="wrap">
+    <div class="title-logo">
+      <img src="img/cooltext330609163954278.png" alt="">
+      <form method="post">
+      <button type="submit" name="restart" value="リスタート">リスタート</button>
+      </form>
+    </div>
     <div class="status">
       <span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。（全10日間）</span>
       <span>
@@ -617,31 +460,29 @@ if(!empty($_POST)){
         ?>
       </div>
 
-      <form class="submit-button">
-        <button type="submit" name="" value="送信">送信</button>
-        <button type="submit" name="restart" value="リスタート">リスタート</button>
-      </form>
-
-      <div class="main-img">
-        <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
+      <div class="submit-button">
+        <button type="submit" name="" value="実行">︎︎︎︎▶︎▷▶︎︎︎︎︎　実行</button>
+      </div>
+      <div class="img-history">
+        <div class="main-img">
+          <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
                 elseif($_SESSION['growLevel'] === 2){echo 'img/level2.png';}
                 elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
                   ?>" alt="">
+        </div>
+
+        <div class="history">
+          <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
+        </div>
       </div>
-   
     </form>
-    <div class="history">
-      <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
-    </div>
+    
   </div>
     <?php } ?>
 
 
   </div>
-
-
-
-
+>
 
 
 </body>
