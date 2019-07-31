@@ -1,0 +1,224 @@
+body {
+  line-height: 150%;
+}
+.site-width {
+  width: 736px;
+  margin: 0 auto;
+}
+.wrap {
+  background: #ffffe0;
+  position: relative;
+}
+
+.wrap form {
+  position: relative;
+}
+
+#start .title-logo img {
+  width: 400px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+#main .title-logo img {
+  width: 300px;
+  padding: 10px 0 0 10px;
+}
+
+#start .main-img {
+  position: relative;
+  width: 500px;
+  padding-top: 50px;
+}
+
+#start .main-img img {
+  position: relative;
+  width: 500px;
+}
+
+#main .img-history {
+  overflow: hidden;
+}
+
+#main .main-img {
+  width: 250px;
+  padding-top: 50px;
+  padding-left: 80px;
+  float: left;
+}
+
+#main .main-img img {
+  width: 250px;
+}
+
+#main .history {
+  float: right;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+/*====================================*/
+/*スタート画面・アクション送信ボたん*/
+/*====================================*/
+
+.wrap button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+
+  display: inline-block;
+  border: 2px solid #9ec34b;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.wrap button:hover {
+  cursor: pointer;
+  background-color: #9ec34b;
+  border-color: #cbe585;
+  color: #fff;
+}
+
+#start form {
+  width: 200px;
+  position: absolute;
+  top: 130px;
+  right: 40px;
+}
+
+.status p {
+  font-size: 25px;
+}
+
+/*====================================*/
+/*アクションボたん*/
+/*====================================*/
+.button {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.radio-inline__label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  transition: all 0.2s;
+  border: 2px solid #9ec34b;
+  color: #9ec34b;
+  background: #fff;
+}
+
+.button:hover + .radio-inline__label {
+  cursor: pointer;
+}
+
+.button:checked + .radio-inline__label {
+  background-color: #9ec34b;
+  border-color: #cbe585;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+.button:focus + .radio-inline__label {
+  outline-color: #fff;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+/*  ↓↓↓↓  晴れボタンのみ*/
+/* .button.fine:checked + .radio-inline__label {
+  background-color: #ffa500;
+  border-color: #ffc966;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+.button.fine:focus + .radio-inline__label {
+  outline-color: #fff;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+.button.fine + .radio-inline__label {
+  border: 2px solid #ffa500;
+  color: #ffa500;
+  background: #fff;
+} */
+
+/*    ↓↓↓↓ 雨ボタンのみ*/
+
+/* .button.rain:checked + .radio-inline__label {
+  background-color: #4169e1;
+  border-color: #cad0e0;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+.button.rain:focus + .radio-inline__label {
+  outline-color: #fff;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+.button.rain + .radio-inline__label {
+  border: 2px solid #4169e1;
+  color: #4169e1;
+  background: #fff;
+} */
+
+/* .action {
+  padding-left: 20px;
+} */
+
+.action,
+.weather {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.submit-button {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+/* .button.fine:checked + .radio-inline__label {
+  background-color: #ffa500;
+  border-color: #ffc966;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+} */
+
+#main .submit-button button:hover {
+  outline-color: #fff;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+  background-color: #ffa500;
+  border-color: #fff;
+  color: #fff;
+}
+
+#main .submit-button button {
+  border: 2px solid #ffa500;
+  color: #ffa500;
+  background: #fff;
+}
+
+/* .submit-button input {
+  margin-top: 25px;
+  font-size: 25px;
+} */
