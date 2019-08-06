@@ -20,7 +20,7 @@ $vegetables = array();
 $soils = array();
 $weather = array();
 
-//抽象クラス（野菜クラス）
+//抽象クラス（生育要素クラス（野菜・土のもとになる））
 abstract class GrowthElements{
   protected $name;
 
@@ -178,7 +178,7 @@ class History implements HistoryInterface{
     //セッションhistoryが作られてなければ作る
     if(empty($_SESSION['history'])) $_SESSION['history'] = '';
     //文字列をセッションhistoryへ格納
-    $_SESSION['history'] .=$_SESSION['dayCount'].'日目: '.$str.'<br>';
+    $_SESSION['history'] =$_SESSION['dayCount'].'日目: '.$str.'<br>';
   }
   public static function clear(){
     unset($_SESSION['history']);
@@ -240,9 +240,11 @@ function init(){
 //1.post送信されていた場合
 if(empty($_POST)){
   $restartFlg = 1;
+  $choiceGameFlg = 0;
   $resultFlg = 0;
 }else{
   $changeFlg = (!empty($_POST['change'])) ? true : false;
+  $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
   $startFlg = (!empty($_POST['start'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
 //  $resultFlg = ($_SESSION['dayCount'] >= 6) ? true : false;
@@ -376,12 +378,30 @@ if(empty($_POST)){
       </div>
       
       <form method="post">
-       <button type="submit" name="start" value="はじめる">はじめる</button>
+       <button type="submit" name="choice" value="はじめる">はじめる</button>
 <!--        <input type="submit" name="start" value="▶️スタート" height="50">-->
       </form>
     
     </div>
+    <!-- ゲーム選択画面 -->
+    <?php }else if($choiceGameFlg){ ?>
+      はい
+
+      <form method="post">
+      <div class="action">
+       <p>①水やりするか、肥料をやるか、ひとつえらんでね！</p>
+        <input type="radio" id="water" class="button" name="action" value="water" checked="checked">
+          <label class="radio-inline__label" for="water">水</label>
+        <input type="radio" id="n" class="button" name="action" value="n">
+          <label class="radio-inline__label" for="n">ちっそ</label>
+
+
+      <form method="post">
+      <button type="submit" name="choice" value="はじめる">はじめる</button>
+      </form>
+
     <!--    結果発表画面-->
+
     <?php }else if($resultFlg){ ?>
     <div id="result" class="wrap">
       <h1>結果はっぴょ〜〜！</h1>
@@ -408,7 +428,9 @@ if(empty($_POST)){
     <div class="title-logo">
       <img src="img/cooltext330609163954278.png" alt="">
       <form method="post">
+        <div class="btn-restart">
       <button type="submit" name="restart" value="リスタート">リスタート</button>
+      </div>
       </form>
     </div>
     <div class="status">
@@ -418,7 +440,7 @@ if(empty($_POST)){
     </div>
       
 
-<!--
+<!--　ステータス非表示
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
@@ -430,6 +452,8 @@ if(empty($_POST)){
       <p>天気:<?php echo $_SESSION['weather']->getName(); ?></p>
     </div>
 -->
+
+<!-- アクションボタン -->
     <form method="post">
       <div class="action">
        <p>①水やりするか、肥料をやるか、ひとつえらんでね！</p>
@@ -451,6 +475,7 @@ if(empty($_POST)){
           <label class="radio-inline__label" for="Ca">かるしうむ</label>
 
       </div>
+      <!-- 天気ボタン -->
       <div class="weather">
         <p>②明日の天気をえらんでね！（自由にえらべます）</p>
         <input type="radio" id="fine" class="button" name="weather" value="fine" <?php echo ($_SESSION['weather']->getName() == '晴れ') ? 'checked' : ''; ?>>
@@ -462,7 +487,7 @@ if(empty($_POST)){
         debug('天気セッション！！！' .print_r($_SESSION['weather']->getName(),true));
         ?>
       </div>
-
+<!-- 送信ボタン -->
       <div class="submit-button">
         <button type="submit" name="" value="実行">︎︎︎︎▶︎▷▶︎︎︎︎︎　実行</button>
       </div>
@@ -481,6 +506,7 @@ if(empty($_POST)){
     </form>
     
   </div>
+
     <?php } ?>
 
 
