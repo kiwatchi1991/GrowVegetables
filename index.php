@@ -14,13 +14,28 @@ function debug($str){
   }
 }
 
+// 野菜クラス
+// class Vegetable{
+//   const tomato = 1;
+//   const sweet_potato = 2;
+//   const edamame = 3;
+// }
+
+// 土クラス
+// class Soil{
+//   const A = 1;
+//   const B = 2;
+//   const C = 3;
+// }
 
 //インスタンス格納用
 $vegetables = array();
 $soils = array();
 $weather = array();
 
-//抽象クラス（野菜クラス）
+
+
+//抽象クラス（生育要素クラス（野菜・土のもとになる））
 abstract class GrowthElements{
   protected $name;
 
@@ -178,7 +193,7 @@ class History implements HistoryInterface{
     //セッションhistoryが作られてなければ作る
     if(empty($_SESSION['history'])) $_SESSION['history'] = '';
     //文字列をセッションhistoryへ格納
-    $_SESSION['history'] .=$_SESSION['dayCount'].'日目: '.$str.'<br>';
+    $_SESSION['history'] =$_SESSION['dayCount'].'日目: '.$str.'<br>';
   }
   public static function clear(){
     unset($_SESSION['history']);
@@ -196,15 +211,15 @@ $soils[] = new Soil('土C',10,10,10,10,10,0);
 $weathers[] = new Weather('晴れ',0,10);
 $weathers[] = new Weather('雨',30,0);
 
-function createVegetable(){
+function createVegetable($num){
   global $vegetables;
-  $vegetable = $vegetables[0];
+  $vegetable = $vegetables[$num];
   History::set($vegetable->getName().'を育てよう！');
   $_SESSION['vegetable'] = $vegetable;
 }
-function createSoil(){
+function createSoil($num){
   global $soils;
-  $soil = $soils[0];
+  $soil = $soils[$num];
   History::set($soil->getName().'を育てよう！');
   $_SESSION['soil'] = $soil;
 }
@@ -229,21 +244,27 @@ function init(){
   History::clear();
   // History::set('初期化します');
   $_SESSION['dayCount'] = 0;
-  createVegetable();
-  createSoil();
+  createVegetable($_SESSION['choiceVeg']);
+  createSoil($_SESSION['choiceSoil']);
   resetWeather();
   $remainDays = 11 - $_SESSION['dayCount'];
 //  $resultFlg ;
 }
 
 
-//1.post送信されていた場合
+//1.post送信がない場合
 if(empty($_POST)){
   $restartFlg = 1;
+  $choiceGameFlg = 0;
   $resultFlg = 0;
 }else{
+
+  //2.post送信されていた場合
+  
   $changeFlg = (!empty($_POST['change'])) ? true : false;
-  $startFlg = (!empty($_POST['start'])) ? true : false;
+  $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
+
+  $startFlg = (!empty($_POST['choiceVeg'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
 //  $resultFlg = ($_SESSION['dayCount'] >= 6) ? true : false;
   $resultFlg = ($_SESSION['dayCount'] >= 11)? true : false;
@@ -253,6 +274,37 @@ if(empty($_POST)){
       History::clear();
       $_SESSION['dayCount'] = 0;
     }else{
+    
+
+    //ゲーム選択画面
+      if($choiceGameFlg){
+    switch($_POST['choiceVeg']){
+      case 'tomato':
+      $_SESSION['choiceVeg'] = 0;
+      break;
+      case 'sweet_potato':
+      $_SESSION['choiceVeg'] = 1;
+      break;
+      case 'edamame':
+      $_SESSION['choiceVeg'] = 2;
+      break;
+    }
+
+    switch($_POST['choiceSoil']){
+      case 'soilA':
+      $_SESSION['choiceSoil'] = 0;
+      break;
+      case 'soilB':
+      $_SESSION['choiceSoil'] = 1;
+      break;
+      case 'soilC':
+      $_SESSION['choiceSoil'] = 2;
+      break;
+    }
+
+    // $choiceGameFlg = false;
+
+  }
     
     //スタート直後（$_POST['weather']がない場合）は、エラーになるのでsetWeatherしない。
     if(!empty($_POST['weather'])){
@@ -363,7 +415,9 @@ if(empty($_POST)){
 <body>
   <div id="contents" class="site-width">
 
-    <!--   初期画面-->
+    <!--   ==============================
+    初期画面
+  ==============================-->
     <?php if($restartFlg){ ?>
     <div id="start" class="wrap">
      
@@ -376,13 +430,17 @@ if(empty($_POST)){
       </div>
       
       <form method="post">
-       <button type="submit" name="start" value="はじめる">はじめる</button>
+       <button type="submit" name="choice" value="choice">はじめる</button>
 <!--        <input type="submit" name="start" value="▶️スタート" height="50">-->
       </form>
     
     </div>
-    <!--    結果発表画面-->
-    <?php }else if($resultFlg){ ?>
+
+<!--  ==============================
+    結果発表画面
+  ==============================-->
+
+  <?php }else if($resultFlg){ ?>
     <div id="result" class="wrap">
       <h1>結果はっぴょ〜〜！</h1>
       <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
@@ -402,13 +460,17 @@ if(empty($_POST)){
 
 
 
-    <!--    通常画面-->
-    <?php }else{ ?>
+ <!-- ==============================
+    ゲーム　通常画面
+  =================================--->
+ <?php }else if($startFlg || (!empty($_POST['action']))){ ?>
   <div id="main" class="wrap">
     <div class="title-logo">
       <img src="img/cooltext330609163954278.png" alt="">
       <form method="post">
+        <div class="btn-restart">
       <button type="submit" name="restart" value="リスタート">リスタート</button>
+      </div>
       </form>
     </div>
     <div class="status">
@@ -418,7 +480,7 @@ if(empty($_POST)){
     </div>
       
 
-<!--
+<!--　ステータス非表示
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
@@ -430,6 +492,13 @@ if(empty($_POST)){
       <p>天気:<?php echo $_SESSION['weather']->getName(); ?></p>
     </div>
 -->
+
+<!-- アクションボタン -->
+<?php
+     var_dump($choiceGameFlg);
+     var_dump($startFlg);
+    ?>
+
     <form method="post">
       <div class="action">
        <p>①水やりするか、肥料をやるか、ひとつえらんでね！</p>
@@ -451,6 +520,7 @@ if(empty($_POST)){
           <label class="radio-inline__label" for="Ca">かるしうむ</label>
 
       </div>
+      <!-- 天気ボタン -->
       <div class="weather">
         <p>②明日の天気をえらんでね！（自由にえらべます）</p>
         <input type="radio" id="fine" class="button" name="weather" value="fine" <?php echo ($_SESSION['weather']->getName() == '晴れ') ? 'checked' : ''; ?>>
@@ -462,15 +532,15 @@ if(empty($_POST)){
         debug('天気セッション！！！' .print_r($_SESSION['weather']->getName(),true));
         ?>
       </div>
-
+<!-- 送信ボタン -->
       <div class="submit-button">
         <button type="submit" name="" value="実行">︎︎︎︎▶︎▷▶︎︎︎︎︎　実行</button>
       </div>
       <div class="img-history">
         <div class="main-img">
-          <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
-                elseif($_SESSION['growLevel'] === 2){echo 'img/level2.png';}
-                elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
+          <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/tomato1.png';}
+                elseif($_SESSION['growLevel'] === 2){echo 'img/tomato2.png';}
+                elseif($_SESSION['growLevel'] === 3){echo 'img/tomato3.png';}
                   ?>" alt="">
         </div>
 
@@ -481,11 +551,58 @@ if(empty($_POST)){
     </form>
     
   </div>
+
+
+
+
+
+    <!-- ==============================
+    ゲーム選択画面
+  ============================== -->
+    <?php }else if($choiceGameFlg){ ?>
+      はい
+
+    <form method="post">
+      <div class="choice-veg">
+       <p>①どの野菜を育てるか、ひとつえらんでね！</p>
+        <input type="radio" id="tomato" class="button" name="choiceVeg" value="tomato" checked="checked">
+          <label class="radio-inline__label" for="tomato">トマト</label>
+        <input type="radio" id="sweet_potato" class="button" name="choiceVeg" value="sweet_potato">
+          <label class="radio-inline__label" for="sweet_potato">いも</label>
+        <input type="radio" id="edamame" class="button" name="choiceVeg" value="edamame">
+          <label class="radio-inline__label" for="edamame">えだまめ</label>
+      </div>
+
+      <div class="choice-soil">
+       <p>②栽培に使う土を、ひとつえらんでね！</p>
+        <input type="radio" id="soilA" class="button" name="choiceSoil" value="soilA" checked="checked">
+          <label class="radio-inline__label" for="soilA">つちA</label>
+        <input type="radio" id="soilB" class="button" name="choiceSoil" value="soilB">
+          <label class="radio-inline__label" for="soilB">つちB</label>
+        <input type="radio" id="soilC" class="button" name="choiceSoil" value="soilC">
+          <label class="radio-inline__label" for="soilC">つちC</label>
+      </div>
+      <button type="submit" name="choice" value="はじめる">はじめる</button>
+    </form>
+
+    <?php
+     var_dump($choiceGameFlg);
+     var_dump($startFlg);
+    ?>
+
+
+
+
+    
+
+
+   
+
     <?php } ?>
 
 
   </div>
->
+
 
 
 </body>
