@@ -14,6 +14,19 @@ function debug($str){
   }
 }
 
+// 野菜クラス
+class Vegetable{
+  const tomato = 1;
+  const sweet_potato = 2;
+  const edamame = 3;
+}
+
+// 土クラス
+class Soil{
+  const A = 1;
+  const B = 2;
+  const C = 3;
+}
 
 //インスタンス格納用
 $vegetables = array();
@@ -237,12 +250,15 @@ function init(){
 }
 
 
-//1.post送信されていた場合
+//1.post送信がない場合
 if(empty($_POST)){
   $restartFlg = 1;
   $choiceGameFlg = 0;
   $resultFlg = 0;
 }else{
+
+  //2.post送信されていた場合
+  
   $changeFlg = (!empty($_POST['change'])) ? true : false;
   $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
   $startFlg = (!empty($_POST['start'])) ? true : false;
@@ -387,18 +403,34 @@ if(empty($_POST)){
     <?php }else if($choiceGameFlg){ ?>
       はい
 
-      <form method="post">
-      <div class="action">
+    <form method="post">
+      <div class="choice-veg">
        <p>①水やりするか、肥料をやるか、ひとつえらんでね！</p>
-        <input type="radio" id="water" class="button" name="action" value="water" checked="checked">
-          <label class="radio-inline__label" for="water">水</label>
-        <input type="radio" id="n" class="button" name="action" value="n">
-          <label class="radio-inline__label" for="n">ちっそ</label>
+        <input type="radio" id="tomato" class="button" name="veg" value="tomato" checked="checked">
+          <label class="radio-inline__label" for="tomato">トマト</label>
+        <input type="radio" id="sweet_potato" class="button" name="veg" value="sweet_potato">
+          <label class="radio-inline__label" for="sweet_potato">いも</label>
+        <input type="radio" id="edamame" class="button" name="veg" value="edamame">
+          <label class="radio-inline__label" for="edamame">えだまめ</label>
+      </div>
 
-
-      <form method="post">
+      <div class="choice-soil">
+       <p>②栽培に使う土をひとつえらんでね！</p>
+        <input type="radio" id="soilA" class="button" name="soil" value="soilA" checked="checked">
+          <label class="radio-inline__label" for="soilA">つちA</label>
+        <input type="radio" id="soilB" class="button" name="soil" value="soilB">
+          <label class="radio-inline__label" for="soilB">つちB</label>
+        <input type="radio" id="soilC" class="button" name="soil" value="soilC">
+          <label class="radio-inline__label" for="soilC">つちC</label>
+      </div>
       <button type="submit" name="choice" value="はじめる">はじめる</button>
-      </form>
+    </form>
+
+     
+
+
+
+
 
     <!--    結果発表画面-->
 

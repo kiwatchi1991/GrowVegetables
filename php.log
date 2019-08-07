@@ -49052,3 +49052,778 @@ Stack trace:
 )
 
 [06-Aug-2019 11:01:39 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[06-Aug-2019 14:18:44 Asia/Tokyo] POSTされた！
+[06-Aug-2019 14:18:44 Asia/Tokyo] デバッグ：restartFlg
+[06-Aug-2019 14:18:44 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[06-Aug-2019 14:18:44 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 80
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 3
+    [growLevel] => 1
+    [history] => 2日目: ②　雨です<br>
+)
+
+[06-Aug-2019 14:18:44 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:24:53 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:24:53 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:24:53 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:24:53 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 90
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 4
+    [growLevel] => 1
+    [history] => 3日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:24:53 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:36:16 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:36:16 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:36:16 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:36:16 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 100
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 5
+    [growLevel] => 1
+    [history] => 4日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:36:16 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:36:42 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:36:42 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:36:42 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:36:42 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 110
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 6
+    [growLevel] => 1
+    [history] => 5日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:36:42 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:36:44 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:36:44 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:36:44 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:36:44 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 120
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 7
+    [growLevel] => 1
+    [history] => 6日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:36:44 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:37:23 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:37:23 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:37:23 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:37:23 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 130
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 8
+    [growLevel] => 1
+    [history] => 7日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:37:23 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:38:12 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:38:12 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:38:12 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:38:12 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 140
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 9
+    [growLevel] => 1
+    [history] => 8日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:38:12 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:38:21 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:38:21 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:38:21 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:38:21 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 150
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 10
+    [growLevel] => 1
+    [history] => 9日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:38:21 Asia/Tokyo] PHP Notice:  Undefined index: action in /Applications/MAMP/htdocs/Grow/index.php on line 283
+[07-Aug-2019 10:38:29 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:38:29 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:38:29 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:38:29 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 11
+    [growLevel] => 1
+    [history] => 10日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:43:08 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:43:08 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:43:08 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:43:08 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 12
+    [growLevel] => 1
+    [history] => 10日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:43:53 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:43:53 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:43:53 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:43:53 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 13
+    [growLevel] => 1
+    [history] => 10日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:50:06 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:50:06 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:50:06 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:50:06 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 14
+    [growLevel] => 1
+    [history] => 10日目: ②　雨です<br>
+)
+
+[07-Aug-2019 10:53:15 Asia/Tokyo] POSTされた！
+[07-Aug-2019 10:53:15 Asia/Tokyo] デバッグ：restartFlg
+[07-Aug-2019 10:53:15 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => はじめる
+)
+
+[07-Aug-2019 10:53:15 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 160
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 10
+            [solar:protected] => 0
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 15
+    [growLevel] => 1
+    [history] => 10日目: ②　雨です<br>
+)
+
