@@ -279,3 +279,35 @@ h5 {
   color: #ffa500;
   background: #fff;
 }
+
+/* =======================================
+結果発表画面
+======================================= */
+#result {
+  padding-left: 20px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+#result h1 {
+  margin-bottom: 50px;
+}
+
+#result h2 {
+  margin-left: 100px;
+}
+
+#result .main-img {
+  float: left;
+  margin-left: 100px;
+}
+
+#result .container {
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#result .comment {
+  margin-bottom: 20px;
+}
