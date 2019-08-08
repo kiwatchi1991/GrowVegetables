@@ -30,11 +30,6 @@ h5 {
   top: 50px;
 }
 
-#main .title-logo img {
-  width: 300px;
-  padding: 10px 0 0 10px;
-}
-
 #start .main-img {
   position: relative;
   width: 500px;
@@ -47,28 +42,6 @@ h5 {
 #start .main-img img {
   position: relative;
   width: 400px;
-}
-
-#main .img-history {
-  overflow: hidden;
-}
-
-#main .main-img {
-  width: 250px;
-
-  padding-top: 50px;
-  padding-left: 80px;
-  float: left;
-}
-
-#main .main-img img {
-  max-height: 200px;
-}
-
-#main .history {
-  float: right;
-  padding-top: 50px;
-  padding-right: 80px;
 }
 
 /*====================================*/
@@ -185,7 +158,63 @@ h5 {
 }
 
 /*====================================*/
-/*アクションボたん*/
+/*メイン画面*/
+/*====================================*/
+#main .title-logo img {
+  width: 400px;
+  padding: 10px 0 0 10px;
+}
+
+#main .img-history {
+  overflow: hidden;
+}
+
+#main .weather-img {
+  margin-top: 30px;
+  width: 100px;
+  /* padding-top: 50px;
+  padding-left: 80px; */
+  float: left;
+}
+
+#main .weather-img img {
+  width: 100px;
+}
+
+#main .main-img {
+  width: 200px;
+  padding-top: 50px;
+  padding-left: 80px;
+  float: left;
+}
+
+#main .main-img img {
+  max-height: 200px;
+}
+
+#main .history {
+  float: right;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+#main .status span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main .status .grow-stage {
+  color: #ff0000;
+}
+
+#main p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/*====================================*/
+/*メイン画面　→　アクションボたん*/
 /*====================================*/
 .button {
   clip: rect(1px, 1px, 1px, 1px);
@@ -224,54 +253,6 @@ h5 {
   outline-style: auto;
   outline-width: 5px;
 }
-
-/*  ↓↓↓↓  晴れボタンのみ*/
-/* .button.fine:checked + .radio-inline__label {
-  background-color: #ffa500;
-  border-color: #ffc966;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-}
-
-.button.fine:focus + .radio-inline__label {
-  outline-color: #fff;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-.button.fine + .radio-inline__label {
-  border: 2px solid #ffa500;
-  color: #ffa500;
-  background: #fff;
-} */
-
-/*    ↓↓↓↓ 雨ボタンのみ*/
-
-/* .button.rain:checked + .radio-inline__label {
-  background-color: #4169e1;
-  border-color: #cad0e0;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-}
-
-.button.rain:focus + .radio-inline__label {
-  outline-color: #fff;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-.button.rain + .radio-inline__label {
-  border: 2px solid #4169e1;
-  color: #4169e1;
-  background: #fff;
-} */
-
-/* .action {
-  padding-left: 20px;
-} */
-
 .action,
 .weather {
   font-size: 20px;
@@ -282,13 +263,6 @@ h5 {
   margin-top: 15px;
   padding-left: 20px;
 }
-
-/* .button.fine:checked + .radio-inline__label {
-  background-color: #ffa500;
-  border-color: #ffc966;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-} */
 
 #main .submit-button button:hover {
   outline-color: #fff;
@@ -305,8 +279,3 @@ h5 {
   color: #ffa500;
   background: #fff;
 }
-
-/* .submit-button input {
-  margin-top: 25px;
-  font-size: 25px;
-} */
