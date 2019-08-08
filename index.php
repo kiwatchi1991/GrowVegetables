@@ -279,7 +279,7 @@ if(empty($_POST)){
     
 
     //ゲーム選択画面
-      if($choiceGameFlg){
+      if($startFlg){
     switch($_POST['choiceVeg']){
       case 'tomato':
       $_SESSION['choiceVeg'] = 0;
@@ -443,13 +443,15 @@ if(empty($_POST)){
   ==============================-->
 
   <?php }else if($resultFlg){ ?>
-    <div id="result" class="wrap">
+  <div id="result" class="wrap">
       <h1>結果はっぴょ〜〜！</h1>
       <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
       
       <div class="main-img">
           <img src="<?php echo 'img/'.$_SESSION['vegetable']->getName().''.$_SESSION['growLevel'].'.png'; ?>" alt="">
       </div>
+
+    <div class="container">
       <div class="comment">
           <?php 
           if($_SESSION['growLevel'] === 1){
@@ -462,12 +464,13 @@ if(empty($_POST)){
           ?>
       </div>
 
-      <form method="post">
-        <div class="btn-restart">
-      <button type="submit" name="restart" value="リスタート">リスタート</button>
+      <div class="btn-restart">
+        <form method="post">
+        <button type="submit" name="restart" value="リスタート">リスタート</button>
+        </form>
       </div>
-      </form>
     </div>
+  </div>
 
 
 
@@ -651,19 +654,10 @@ if(empty($_POST)){
 
     </div>
 
-
-    
-
-
-   
-
     <?php } ?>
 
-
   </div>
-
-
-
+  
 </body>
 
 </html>
