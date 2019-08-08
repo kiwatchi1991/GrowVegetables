@@ -473,9 +473,9 @@ if(empty($_POST)){
       </form>
     </div>
     <div class="status">
-      <span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。（全10日間）</span>
+      <span>今日は<?php echo $_SESSION['dayCount']; ?>日目です。(全10日間)　</span>
       <span>
-        現在の栽培ステージ：<?php echo $_SESSION['growLevel']; ?></span>
+        現在の栽培ステージ：</span><span class="grow-stage"><?php echo $_SESSION['growLevel']; ?></span>
     </div>
       
 
@@ -493,11 +493,11 @@ if(empty($_POST)){
 -->
 
 <!-- アクションボタン -->
-<?php
+<!-- <?php
      var_dump($choiceGameFlg);
      var_dump($startFlg);
      var_dump($_SESSION['vegetable']->getName());
-    ?>
+    ?> -->
 
     <form method="post">
       <div class="action">
@@ -537,11 +537,15 @@ if(empty($_POST)){
         <button type="submit" name="" value="実行">︎︎︎︎▶︎▷▶︎︎︎︎︎　実行</button>
       </div>
       <div class="img-history">
+
+
+
         <div class="main-img">
-
-          <!-- 変更後 -->
                 <img src="<?php echo 'img/'.$_SESSION['vegetable']->getName().''.$_SESSION['growLevel'].'.png'; ?>" alt="">
+        </div>
 
+        <div class="weather-img">
+          <img src="<?php echo 'img/'.$_SESSION['weather']->getName().'.png'; ?>" alt="">
         </div>
 
         <div class="history">
