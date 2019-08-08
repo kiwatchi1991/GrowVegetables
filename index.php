@@ -22,11 +22,13 @@ function debug($str){
 // }
 
 // 土クラス
-// class Soil{
+// class resultMessage{
 //   const A = 1;
 //   const B = 2;
 //   const C = 3;
 // }
+
+
 
 //インスタンス格納用
 $vegetables = array();
@@ -444,17 +446,27 @@ if(empty($_POST)){
     <div id="result" class="wrap">
       <h1>結果はっぴょ〜〜！</h1>
       <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
+      
       <div class="main-img">
-
-          <!-- 変更後 -->
           <img src="<?php echo 'img/'.$_SESSION['vegetable']->getName().''.$_SESSION['growLevel'].'.png'; ?>" alt="">
+      </div>
+      <div class="comment">
+          <?php 
+          if($_SESSION['growLevel'] === 1){
+            echo "今年は収穫ゼロです。。。。";
+          }elseif($_SESSION['growLevel'] === 2){
+            echo "生育不十分でした...惜しい！";
+          }elseif($_SESSION['growLevel'] === 3){
+            echo "おめでとう！たくさん収穫できました♬";
+          }
+          ?>
+      </div>
 
+      <form method="post">
+        <div class="btn-restart">
+      <button type="submit" name="restart" value="リスタート">リスタート</button>
       </div>
-      <div class="button-restart">
-         <form method="post">
-           <input type="submit" name="restart" value="リスタート">
-         </form>
-      </div>
+      </form>
     </div>
 
 
