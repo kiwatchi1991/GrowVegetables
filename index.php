@@ -270,6 +270,7 @@ if(empty($_POST)){
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
 //  $resultFlg = ($_SESSION['dayCount'] >= 6) ? true : false;
   $resultFlg = ($_SESSION['dayCount'] >= 11)? true : false;
+  $actionFlg = (!empty($_POST['action'])) ? true : false;
 
   //リスタートボタンを押した場合
     if($restartFlg){
@@ -304,8 +305,6 @@ if(empty($_POST)){
       break;
     }
 
-    // $choiceGameFlg = false;
-
   }
     
     //スタート直後（$_POST['weather']がない場合）は、エラーになるのでsetWeatherしない。
@@ -329,7 +328,7 @@ if(empty($_POST)){
       {
         $resultFlg = true;
       }
-     else{
+     elseif($actionFlg){
        //送信した場合
        //お世話アクション
       switch($_POST['action']){
@@ -453,15 +452,15 @@ if(empty($_POST)){
 
     <div class="container">
       <div class="comment">
-          <?php 
+          <p><?php 
           if($_SESSION['growLevel'] === 1){
             echo "今年は収穫ゼロです。。。。";
           }elseif($_SESSION['growLevel'] === 2){
             echo "生育不十分でした...惜しい！";
           }elseif($_SESSION['growLevel'] === 3){
-            echo "おめでとう！たくさん収穫できました♬";
+            echo "おめでとう！<br>たくさん収穫できました♬";
           }
-          ?>
+          ?></p>
       </div>
 
       <div class="btn-restart">
@@ -571,10 +570,6 @@ if(empty($_POST)){
     
   </div>
 
-
-
-
-
     <!-- ==============================
     ゲーム選択画面
   ============================== -->
@@ -646,11 +641,6 @@ if(empty($_POST)){
       </div>
       <button type="submit" name="choice" value="はじめる">はじめる</button>
     </form>
-
-    <?php
-     var_dump($choiceGameFlg);
-     var_dump($startFlg);
-    ?>
 
     </div>
 

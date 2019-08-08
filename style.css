@@ -59,7 +59,7 @@ h5 {
 
 #choice {
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #choice h2 {
@@ -286,7 +286,12 @@ h5 {
 #result {
   padding-left: 20px;
   padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
+}
+
+#result p {
+  font-size: 25px;
 }
 
 #result h1 {
@@ -295,11 +300,12 @@ h5 {
 
 #result h2 {
   margin-left: 100px;
+  margin-bottom: 30px;
 }
 
 #result .main-img {
   float: left;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 #result .container {
