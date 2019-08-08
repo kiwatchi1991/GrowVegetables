@@ -203,8 +203,8 @@ class History implements HistoryInterface{
 
 //インスタンス生成
 $vegetables[] = new Vegetable('トマト');
-$vegetables[] = new Vegetable('キュウリ');
-$vegetables[] = new Vegetable('キャベツ');
+$vegetables[] = new Vegetable('イモ');
+$vegetables[] = new Vegetable('エダマメ');
 $soils[] = new Soil('土A',50,50,50,50,10,0);
 $soils[] = new Soil('土B',30,30,30,30,10,0);
 $soils[] = new Soil('土C',10,10,10,10,10,0);
@@ -422,11 +422,11 @@ if(empty($_POST)){
     <div id="start" class="wrap">
      
       <div class="title-logo">
-        <img src="img/cooltext330609163954278.png" alt="">
+        <img src="img/top_logo.png" alt="">
       </div>
       
       <div class="main-img">
-        <img src="img/sozai_image_68166.png" alt="">
+        <img src="img/title_img.png" alt="">
       </div>
       
       <form method="post">
@@ -445,11 +445,10 @@ if(empty($_POST)){
       <h1>結果はっぴょ〜〜！</h1>
       <h2>栽培ステージ：<?php echo $_SESSION['growLevel']; ?></h2>
       <div class="main-img">
-        <img src="
-         <?php if($_SESSION['growLevel'] === 1){echo 'img/level1.png';}
-              elseif($_SESSION['growLevel'] === 2){echo 'img/level2.png';}
-              elseif($_SESSION['growLevel'] === 3){echo 'img/level3.png';}
-          ?>" alt="">
+
+          <!-- 変更後 -->
+          <img src="<?php echo 'img/'.$_SESSION['vegetable']->getName().''.$_SESSION['growLevel'].'.png'; ?>" alt="">
+
       </div>
       <div class="button-restart">
          <form method="post">
@@ -466,7 +465,7 @@ if(empty($_POST)){
  <?php }else if($startFlg || (!empty($_POST['action']))){ ?>
   <div id="main" class="wrap">
     <div class="title-logo">
-      <img src="img/cooltext330609163954278.png" alt="">
+      <img src="img/top_logo.png" alt="">
       <form method="post">
         <div class="btn-restart">
       <button type="submit" name="restart" value="リスタート">リスタート</button>
@@ -497,6 +496,7 @@ if(empty($_POST)){
 <?php
      var_dump($choiceGameFlg);
      var_dump($startFlg);
+     var_dump($_SESSION['vegetable']->getName());
     ?>
 
     <form method="post">
@@ -538,10 +538,10 @@ if(empty($_POST)){
       </div>
       <div class="img-history">
         <div class="main-img">
-          <img src="<?php if($_SESSION['growLevel'] === 1){echo 'img/tomato1.png';}
-                elseif($_SESSION['growLevel'] === 2){echo 'img/tomato2.png';}
-                elseif($_SESSION['growLevel'] === 3){echo 'img/tomato3.png';}
-                  ?>" alt="">
+
+          <!-- 変更後 -->
+                <img src="<?php echo 'img/'.$_SESSION['vegetable']->getName().''.$_SESSION['growLevel'].'.png'; ?>" alt="">
+
         </div>
 
         <div class="history">
@@ -560,27 +560,70 @@ if(empty($_POST)){
     ゲーム選択画面
   ============================== -->
     <?php }else if($choiceGameFlg){ ?>
-      はい
+    <div id="choice" class="wrap">
+
+    <div class="title-logo">
+      <img src="img/top_logo.png" alt="">
+    </div>
 
     <form method="post">
       <div class="choice-veg">
-       <p>①どの野菜を育てるか、ひとつえらんでね！</p>
-        <input type="radio" id="tomato" class="button" name="choiceVeg" value="tomato" checked="checked">
-          <label class="radio-inline__label" for="tomato">トマト</label>
-        <input type="radio" id="sweet_potato" class="button" name="choiceVeg" value="sweet_potato">
-          <label class="radio-inline__label" for="sweet_potato">いも</label>
-        <input type="radio" id="edamame" class="button" name="choiceVeg" value="edamame">
-          <label class="radio-inline__label" for="edamame">えだまめ</label>
-      </div>
+       <h2>①どの野菜を育てるか、ひとつえらんでね！</h2>
+       　<div class="img-container">
+         <h3>- トマト -</h3>
+         <p>< 注意 ></p>
+         <p>尻腐れ病に<br>気をつけろ！</p>
+          <input type="radio" id="tomato" class="button" name="choiceVeg" value="tomato" checked="checked">
+          <label class="radio-inline__label" for="tomato"><img src="img/トマトimg.png" alt=""></label>
+        </div>
 
+       　<div class="img-container">
+         <h3>- さつまいも -</h3>
+         <p>< 注意 ></p>
+         <p>つるぼけに<br>気をつけろ！</p>
+           <input type="radio" id="sweet_potato" class="button" name="choiceVeg" value="sweet_potato">
+          <label class="radio-inline__label" for="sweet_potato"><img src="img/イモimg.png" alt=""></label>
+        </div>
+
+        <div class="img-container">
+        <h3>- えだまめ -</h3>
+         <p>< 注意 ></p>
+         <p>ちっその与えすぎに<br>気をつけろ！</p>
+          <input type="radio" id="edamame" class="button" name="choiceVeg" value="edamame">
+          <label class="radio-inline__label" for="edamame"><img src="img/エダマメimg.png" alt=""></label>
+        </div>
+
+      </div>
       <div class="choice-soil">
-       <p>②栽培に使う土を、ひとつえらんでね！</p>
+       <h2>②栽培に使う土を、ひとつえらんでね！</h2>
+
+       　<div class="img-container">
+         <h3>- 土A -</h3>
+         <p>栽培難易度：★</p>
+         <p>< 特徴 ></p>
+         <p>水も肥料もたっぷり！<br>育てやすい土だよ！</p>
         <input type="radio" id="soilA" class="button" name="choiceSoil" value="soilA" checked="checked">
-          <label class="radio-inline__label" for="soilA">つちA</label>
+          <label class="radio-inline__label" for="soilA"><img src="img/soil_img.jpg" alt=""></label>
+          </div>
+
+          　<div class="img-container">
+          <h3>- 土B -</h3>
+          <p>栽培難易度：★★</p>
+          <p>< 特徴 ></p>
+          <p>水が乾きやすい<br>けど、肥料はたっぷり！</p>
         <input type="radio" id="soilB" class="button" name="choiceSoil" value="soilB">
-          <label class="radio-inline__label" for="soilB">つちB</label>
+          <label class="radio-inline__label" for="soilB"><img src="img/soil_img.jpg" alt=""></label>
+          </div>
+
+          　<div class="img-container">
+          <h3>- 土C -</h3>
+          <p>栽培難易度：★★★</p>
+         <p>< 特徴 ></p>
+         <p>からっからで肥料も<br>少ない！難しい土だよ！</p>
         <input type="radio" id="soilC" class="button" name="choiceSoil" value="soilC">
-          <label class="radio-inline__label" for="soilC">つちC</label>
+          <label class="radio-inline__label" for="soilC"><img src="img/soil_img.jpg" alt=""></label>
+          </div>
+
       </div>
       <button type="submit" name="choice" value="はじめる">はじめる</button>
     </form>
@@ -590,7 +633,7 @@ if(empty($_POST)){
      var_dump($startFlg);
     ?>
 
-
+    </div>
 
 
     
