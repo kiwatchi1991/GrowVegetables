@@ -164,7 +164,7 @@ class Soil extends GrowthElements{
     $targetObj->setSolar($targetObj->getSolar()+$actionPoint);
     History::set('②　天気：　晴れです');
   }
-
+ 
 
 }
   
