@@ -86572,3 +86572,63 @@ Stack trace:
     [history] => 9日目: ②　雨です<br>
 )
 
+[08-Aug-2019 22:21:27 Asia/Tokyo] POSTされた！
+[08-Aug-2019 22:21:27 Asia/Tokyo] デバッグ：restartFlg
+[08-Aug-2019 22:21:27 Asia/Tokyo] デバッグ：post内容Array
+(
+    [choice] => choice
+)
+
+[08-Aug-2019 22:21:27 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => エダマメ
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 280
+            [n:protected] => 70
+            [p:protected] => 70
+            [k:protected] => 70
+            [Ca:protected] => 30
+            [solar:protected] => 50
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 3
+    [choiceVeg] => 2
+    [choiceSoil] => 0
+)
+
