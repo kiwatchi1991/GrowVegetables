@@ -360,9 +360,6 @@ if(empty($_POST)){
       $_SESSION['dayCount'] = $_SESSION['dayCount']+1;
   }
   
-  
-  
-  
   if($_SESSION['dayCount'] >= 11){
     $resultFlg = true;
   }
@@ -456,7 +453,6 @@ if($vegName === 'トマト'){
 
 }
 
-
 }
 }
 ?>
@@ -492,7 +488,6 @@ if($vegName === 'トマト'){
       
       <form method="post">
        <button type="submit" name="choice" value="choice">はじめる</button>
-<!--        <input type="submit" name="start" value="▶️スタート" height="50">-->
       </form>
     
     </div>
@@ -553,7 +548,7 @@ if($vegName === 'トマト'){
     </div>
     
 
-<!-- 　ステータス非表示
+<!-- 　ステータス（非表示）
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
@@ -594,6 +589,7 @@ if($vegName === 'トマト'){
           <label class="radio-inline__label" for="Ca">かるしうむ</label>
 
       </div>
+
       <!-- 天気ボタン -->
       <div class="weather">
         <p>②明日の天気をえらんでね！（自由にえらべます）</p>
@@ -606,7 +602,8 @@ if($vegName === 'トマト'){
         debug('天気セッション！！！' .print_r($_SESSION['weather']->getName(),true));
         ?>
       </div>
-<!-- 送信ボタン -->
+
+      <!-- 送信ボタン -->
       <div class="submit-button">
         <button type="submit" name="" value="実行">︎︎︎︎▶︎▷▶︎︎︎︎︎　実行</button>
       </div>
