@@ -14,27 +14,10 @@ function debug($str){
   }
 }
 
-// 野菜クラス
-// class Vegetable{
-//   const tomato = 1;
-//   const sweet_potato = 2;
-//   const edamame = 3;
-// }
-
-// 土クラス
-// class resultMessage{
-//   const A = 1;
-//   const B = 2;
-//   const C = 3;
-// }
-
-
-
 //インスタンス格納用
 $vegetables = array();
 $soils = array();
 $weather = array();
-
 
 
 //抽象クラス（生育要素クラス（野菜・土のもとになる））
@@ -164,10 +147,10 @@ class Soil extends GrowthElements{
     $targetObj->setSolar($targetObj->getSolar()+$actionPoint);
     History::set('②　天気：　晴れです');
   }
- 
 
 }
   
+
 //=================================
 //天気クラス
 //=================================
@@ -201,6 +184,7 @@ class History implements HistoryInterface{
     unset($_SESSION['history']);
   }
 }
+
 
 
 //インスタンス生成
@@ -252,6 +236,9 @@ function init(){
   $remainDays = 11 - $_SESSION['dayCount'];
 //  $resultFlg ;
 }
+
+
+
 
 
 //1.post送信がない場合
