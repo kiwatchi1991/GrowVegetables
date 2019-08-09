@@ -133,17 +133,17 @@ class Soil extends GrowthElements{
   }
 
   public function fertilizeN($targetObj){
-    $actionPoint = 10;
+    $actionPoint = 30;
     $targetObj->setN($targetObj->getN()+$actionPoint);
     History::set('①　'.$_SESSION['vegetable']->getName().'に　ちっそ肥料を与えました');
   }
   public function fertilizeP($targetObj){
-    $actionPoint = 10;
+    $actionPoint = 30;
     $targetObj->setP($targetObj->getP()+$actionPoint);
     History::set('①　'.$_SESSION['vegetable']->getName().'に　りん肥料を与えました');
   }
   public function fertilizeK($targetObj){
-    $actionPoint = 10;
+    $actionPoint = 30;
     $targetObj->setK($targetObj->getK()+$actionPoint);
     History::set('①　'.$_SESSION['vegetable']->getName().'に　かりうむ肥料を与えました');
   }
@@ -207,8 +207,8 @@ class History implements HistoryInterface{
 $vegetables[] = new Vegetable('トマト');
 $vegetables[] = new Vegetable('イモ');
 $vegetables[] = new Vegetable('エダマメ');
-$soils[] = new Soil('土A',50,50,50,50,10,0);
-$soils[] = new Soil('土B',30,30,30,30,10,0);
+$soils[] = new Soil('土A',50,50,50,50,30,20);
+$soils[] = new Soil('土B',30,30,30,30,20,10);
 $soils[] = new Soil('土C',10,10,10,10,10,0);
 $weathers[] = new Weather('晴れ',0,10);
 $weathers[] = new Weather('雨',30,0);
@@ -384,21 +384,88 @@ if(empty($_POST)){
   $CaLevel = $_SESSION['soil']->getCa();
   $soLevel = $_SESSION['soil']->getSolar();
   
+  $vegName = $_SESSION['vegetable']->getName();
+  $soilName = $_SESSION['soil']->getName();
 
-  //レベル３
-  if($waterLevel > 270 && $nLevel >60 && $pLevel > 60 && $kLevel > 60 && $CaLevel > 20 && $soLevel > 40){
+//①トマトの場合
+if($vegName === 'トマト'){
+
+    // 土Aの場合
+  if($soilName === '土A'){
+      //レベル３
+    if($waterLevel >= 90 && $nLevel >= 60 && $pLevel >= 60 && $kLevel >= 60 && $CaLevel >= 40 && $soLevel >= 30){
     $_SESSION['growLevel'] = 3;
-  }
-  //レベル２
-  elseif($waterLevel > 50 && $nLevel >50 && $pLevel > 50 && $kLevel > 50 && $CaLevel > 10 && $soLevel > 20){
+    }
+     //レベル２
+    elseif($waterLevel >= 90 && $nLevel >= 50 && $pLevel >= 50 && $kLevel >= 50 && $CaLevel >= 30 && $soLevel >= 20){
     $_SESSION['growLevel'] = 2;
+    }
+
+    // 土Bの場合  
+  }elseif($soilName === "土B"){
+     //レベル３
+     if($waterLevel >= 150 && $nLevel >= 40 && $pLevel >= 40 && $kLevel >= 40 && $CaLevel >= 30 && $soLevel >= 40){
+      $_SESSION['growLevel'] = 3;
+      }
+       //レベル２
+      elseif($waterLevel >= 70 && $nLevel >= 30 && $pLevel >= 30 && $kLevel >= 30 && $CaLevel >= 20 && $soLevel >= 20){
+      $_SESSION['growLevel'] = 2;
+      }
+
+      //土Cの場合
+  }elseif($soilName === '土C'){
+      //レベル３
+      if($waterLevel >= 170 && $nLevel >= 30 && $pLevel >= 30 && $kLevel >= 30 && $CaLevel >= 30 && $soLevel >= 40){
+        $_SESSION['growLevel'] = 3;
+        }
+         //レベル２
+        elseif($waterLevel >= 90 && $nLevel >= 20 && $pLevel >= 20 && $kLevel >= 20 && $CaLevel >= 10 && $soLevel >= 20){
+        $_SESSION['growLevel'] = 2;
+        }
+  
   }
-  
+
+  //②イモ、③エダマメの場合
+}else{
+
+  // 土Aの場合
+  if($soilName === '土A'){
+    //レベル３
+  if($waterLevel >= 90 && $nLevel >= 50 && $pLevel >= 60 && $kLevel >= 60 && $CaLevel >= 30 && $soLevel >= 30){
+  $_SESSION['growLevel'] = 3;
+  }
+   //レベル２
+  elseif($waterLevel >= 90 && $nLevel >= 50 && $pLevel >= 50 && $kLevel >= 50 && $CaLevel >= 30 && $soLevel >= 20){
+  $_SESSION['growLevel'] = 2;
+  }
+
+  // 土Bの場合  
+}elseif($soilName === "土B"){
+   //レベル３
+   if($waterLevel >= 120 && $nLevel >= 40 && $pLevel >= 50 && $kLevel >= 50 && $CaLevel >= 20 && $soLevel >= 40){
+    $_SESSION['growLevel'] = 3;
+    }
+     //レベル２
+    elseif($waterLevel >= 70 && $nLevel >= 30 && $pLevel >= 30 && $kLevel >= 30 && $CaLevel >= 20 && $soLevel >= 20){
+    $_SESSION['growLevel'] = 2;
+    }
+
+    //土Cの場合
+}elseif($soilName === '土C'){
+    //レベル３
+    if($waterLevel >= 140 && $nLevel >= 30 && $pLevel >= 90 && $kLevel >= 90 && $CaLevel >= 10 && $soLevel >= 40){
+      $_SESSION['growLevel'] = 3;
+      }
+       //レベル２
+      elseif($waterLevel >= 90 && $nLevel >= 20 && $pLevel >= 30 && $kLevel >= 30 && $CaLevel >= 10 && $soLevel >= 20){
+      $_SESSION['growLevel'] = 2;
+      }
+
 }
-  
 
 
-
+}
+}
 ?>
 
 
@@ -491,9 +558,9 @@ if(empty($_POST)){
       <span>
         現在の栽培ステージ：</span><span class="grow-stage"><?php echo $_SESSION['growLevel']; ?></span>
     </div>
-      
+    
 
-<!--　ステータス非表示
+<!-- 　ステータス非表示
        <div class="status">
       <p>水:<?php echo $_SESSION['soil']->getWater(); ?> </p>
       <p>N:<?php echo $_SESSION['soil']->getN(); ?></p>
@@ -503,8 +570,8 @@ if(empty($_POST)){
       <p>日光:<?php echo $_SESSION['soil']->getSolar(); ?></p>
 
       <p>天気:<?php echo $_SESSION['weather']->getName(); ?></p>
-    </div>
--->
+    </div> -->
+
 
 <!-- アクションボタン -->
 <!-- <?php
@@ -585,24 +652,24 @@ if(empty($_POST)){
        <h2>①どの野菜を育てるか、ひとつえらんでね！</h2>
        　<div class="img-container">
          <h3>- トマト -</h3>
-         <p>< 注意 ></p>
-         <p>尻腐れ病に<br>気をつけろ！</p>
+         <!-- <p>< 注意 ></p>
+         <p>尻腐れ病に<br>気をつけろ！</p> -->
           <input type="radio" id="tomato" class="button" name="choiceVeg" value="tomato" checked="checked">
           <label class="radio-inline__label" for="tomato"><img src="img/トマトimg.png" alt=""></label>
         </div>
 
        　<div class="img-container">
          <h3>- さつまいも -</h3>
-         <p>< 注意 ></p>
-         <p>つるぼけに<br>気をつけろ！</p>
+         <!-- <p>< 注意 ></p>
+         <p>つるぼけに<br>気をつけろ！</p> -->
            <input type="radio" id="sweet_potato" class="button" name="choiceVeg" value="sweet_potato">
           <label class="radio-inline__label" for="sweet_potato"><img src="img/イモimg.png" alt=""></label>
         </div>
 
         <div class="img-container">
         <h3>- えだまめ -</h3>
-         <p>< 注意 ></p>
-         <p>ちっその与えすぎに<br>気をつけろ！</p>
+         <!-- <p>< 注意 ></p>
+         <p>ちっその与えすぎに<br>気をつけろ！</p> -->
           <input type="radio" id="edamame" class="button" name="choiceVeg" value="edamame">
           <label class="radio-inline__label" for="edamame"><img src="img/エダマメimg.png" alt=""></label>
         </div>
