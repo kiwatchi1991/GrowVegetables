@@ -119,7 +119,7 @@ class Soil extends GrowthElements{
   public function doWater($targetObj){
     $actionPoint = 30;
     $targetObj->setWater($targetObj->getWater()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'に水やりしました');
+    History::set('①　水やりしました');
   }
   
 
@@ -129,40 +129,40 @@ class Soil extends GrowthElements{
     $targetObj->setN($targetObj->getN()+$actionPoint);
     $targetObj->setP($targetObj->getP()+$actionPoint);
     $targetObj->setK($targetObj->getK()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'にバランス肥料を与えました');
+    History::set('①　バランス肥料を与えました');
   }
 
   public function fertilizeN($targetObj){
     $actionPoint = 30;
     $targetObj->setN($targetObj->getN()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'に　ちっそ肥料を与えました');
+    History::set('①　ちっそ肥料を与えました');
   }
   public function fertilizeP($targetObj){
     $actionPoint = 30;
     $targetObj->setP($targetObj->getP()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'に　りん肥料を与えました');
+    History::set('①　りん肥料を与えました');
   }
   public function fertilizeK($targetObj){
     $actionPoint = 30;
     $targetObj->setK($targetObj->getK()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'に　かりうむ肥料を与えました');
+    History::set('①　かりうむ肥料を与えました');
   }
   public function fertilizeCa($targetObj){
     $actionPoint = 10;
     $targetObj->setCa($targetObj->getCa()+$actionPoint);
-    History::set('①　'.$_SESSION['vegetable']->getName().'に　カルシウム肥料を与えました');
+    History::set('①　カルシウム肥料を与えました');
   }
 
   public function rain($targetObj){
     $actionPoint = 10;
     $targetObj->setWater($targetObj->getWater()+$actionPoint);
-    History::set('②　雨です');
+    History::set('②　天気：　雨です');
   }
   
   public function shineOn($targetObj){
     $actionPoint = 10;
     $targetObj->setSolar($targetObj->getSolar()+$actionPoint);
-    History::set($_SESSION['vegetable']->getName().'②　晴れです');
+    History::set('②　天気：　晴れです');
   }
 
 
@@ -195,7 +195,7 @@ class History implements HistoryInterface{
     //セッションhistoryが作られてなければ作る
     if(empty($_SESSION['history'])) $_SESSION['history'] = '';
     //文字列をセッションhistoryへ格納
-    $_SESSION['history'] =$_SESSION['dayCount'].'日目: '.$str.'<br>';
+    $_SESSION['history'] .= $str.'<br>';
   }
   public static function clear(){
     unset($_SESSION['history']);
@@ -216,13 +216,13 @@ $weathers[] = new Weather('雨',30,0);
 function createVegetable($num){
   global $vegetables;
   $vegetable = $vegetables[$num];
-  History::set($vegetable->getName().'を育てよう！');
+  History::set('「'.$vegetable->getName().'」　を育てよう！');
   $_SESSION['vegetable'] = $vegetable;
 }
 function createSoil($num){
   global $soils;
   $soil = $soils[$num];
-  History::set($soil->getName().'を育てよう！');
+  History::set('「'.$soil->getName().'」　をえらびました！');
   $_SESSION['soil'] = $soil;
 }
 function resetWeather(){
@@ -262,13 +262,19 @@ if(empty($_POST)){
 }else{
 
   //2.post送信されていた場合
-  
+
+    //ヒストリーをリセット
+  function historyClear(){
+     History::clear();
+  };
+
+  historyClear();
+
+
   $changeFlg = (!empty($_POST['change'])) ? true : false;
   $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
-
   $startFlg = (!empty($_POST['choiceVeg'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
-//  $resultFlg = ($_SESSION['dayCount'] >= 6) ? true : false;
   $resultFlg = ($_SESSION['dayCount'] >= 11)? true : false;
   $actionFlg = (!empty($_POST['action'])) ? true : false;
 
