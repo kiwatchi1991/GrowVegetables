@@ -43,9 +43,19 @@ abstract class GrowthElements{
 //野菜クラス
 //=================================
 class Vegetable extends GrowthElements{
-  
-  public function __construct($name){
+  //プロパティ
+  protected $displayname;
+
+  public function __construct($name, $displayname){
       $this->name = $name;
+      $this->displayname = $displayname;
+  }
+
+  public function setdisplayName($str){
+    $this->displayname = $str;
+  }
+  public function getdisplayName(){
+    return $this->displayname;
   }
 }
 
@@ -196,9 +206,9 @@ class History implements HistoryInterface{
 
 
 //インスタンス生成
-$vegetables[] = new Vegetable('tomato');
-$vegetables[] = new Vegetable('imo');
-$vegetables[] = new Vegetable('edamame');
+$vegetables[] = new Vegetable('tomato','トマト');
+$vegetables[] = new Vegetable('imo','さつまいも');
+$vegetables[] = new Vegetable('edamame','えだまめ');
 $soils[] = new Soil('土A',50,50,50,50,30,20);
 $soils[] = new Soil('土B',30,30,30,30,20,10);
 $soils[] = new Soil('土C',10,10,10,10,10,0);
@@ -208,7 +218,7 @@ $weathers[] = new Weather('rain',30,0);
 function createVegetable($num){
   global $vegetables;
   $vegetable = $vegetables[$num];
-  History::set('「'.$vegetable->getName().'」　を育てよう！');
+  History::set('「'.$vegetable->getdisplayName().'」　を育てよう！');
   $_SESSION['vegetable'] = $vegetable;
 }
 function createSoil($num){
