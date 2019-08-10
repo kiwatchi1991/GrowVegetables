@@ -308,8 +308,12 @@ if(empty($_POST)){
   
     //デバッグ関数
     error_log('POSTされた！');
-    debug('restartFlg' .print_r($restartFlg,true));
-    debug('post内容' .print_r($_POST,true));
+    debug('changeFlg　：' .print_r($changeFlg,true));
+    debug('choiceGameFlg　：' .print_r($choiceGameFlg,true));
+    debug('startFlg　：' .print_r($startFlg,true));
+    debug('restartFlg　：' .print_r($restartFlg,true));
+    debug('resultFlg　：' .print_r($resultFlg,true));
+    debug('post内容　：' .print_r($_POST,true));
     debug('セッション内容' .print_r($_SESSION,true));
 
     //ゲームスタートした場合
