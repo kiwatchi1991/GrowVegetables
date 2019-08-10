@@ -246,6 +246,7 @@ if(empty($_POST)){
   $restartFlg = 1;
   $choiceGameFlg = 0;
   $resultFlg = 0;
+  $_SESSION['dayCount'] = 0;
 }else{
 
   //2.post送信されていた場合
@@ -262,7 +263,7 @@ if(empty($_POST)){
   $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
   $startFlg = (!empty($_POST['choiceVeg'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
-  $resultFlg = ($_SESSION['dayCount'] >= 11)? true : false;
+  $resultFlg = ($_SESSION['dayCount'] = 11)? true : false;
   $actionFlg = (!empty($_POST['action'])) ? true : false;
 
   //リスタートボタンを押した場合
@@ -354,11 +355,11 @@ if(empty($_POST)){
       break;
          }
     
-      }
+      // }
   
     //日数カウント
       $_SESSION['dayCount'] = $_SESSION['dayCount']+1;
-  }
+  // }
   
   if($_SESSION['dayCount'] >= 11){
     $resultFlg = true;
@@ -453,6 +454,8 @@ if($vegName === 'トマト'){
 
 }
 
+}
+}
 }
 }
 ?>
