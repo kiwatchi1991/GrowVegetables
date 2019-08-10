@@ -230,6 +230,7 @@ function init(){
   History::clear();
   // History::set('初期化します');
   $_SESSION['dayCount'] = 0;
+  $_SESSION['growLevel'] = 1;
   createVegetable($_SESSION['choiceVeg']);
   createSoil($_SESSION['choiceSoil']);
   resetWeather();
@@ -238,10 +239,12 @@ function init(){
 }
 
 
+// =============================================
+// POSTした場合の流れ
+// =============================================
 
 
-
-//1.post送信がない場合
+//===== 1.post送信がない場合 =============
 if(empty($_POST)){
   $restartFlg = 1;
   $choiceGameFlg = 0;
@@ -249,7 +252,20 @@ if(empty($_POST)){
   $_SESSION['dayCount'] = 0;
 }else{
 
-  //2.post送信されていた場合
+  //======= 2.post送信されていた場合 ===============
+    
+  // POSTされるごと毎回行う処理（ここから）
+  
+    //デバッグ関数
+    error_log('POSTされた！');
+    debug('changeFlg　：' .print_r($changeFlg,true));
+    debug('choiceGameFlg　：' .print_r($choiceGameFlg,true));
+    debug('startFlg　：' .print_r($startFlg,true));
+    debug('restartFlg　：' .print_r($restartFlg,true));
+    debug('resultFlg　：' .print_r($resultFlg,true));
+    debug('post内容　：' .print_r($_POST,true));
+    debug('セッション内容' .print_r($_SESSION,true));
+
 
     //ヒストリーをリセット
   function historyClear(){
@@ -263,18 +279,29 @@ if(empty($_POST)){
   $choiceGameFlg = (!empty($_POST['choice'])) ? true : false;
   $startFlg = (!empty($_POST['choiceVeg'])) ? true : false;
   $restartFlg = (!empty($_POST['restart'])) ? true : false;
-  $resultFlg = ($_SESSION['dayCount'] = 11)? true : false;
+  $resultFlg = ($_SESSION['dayCount'] >= 11) ? true : false;
   $actionFlg = (!empty($_POST['action'])) ? true : false;
 
-  //リスタートボタンを押した場合
+          //  〜〜〜〜〜〜〜〜〜POSTされるごと毎回行う処理（ここまで）
+
+
+  //=============リスタートボタンを押した場合=====================
     if($restartFlg){
       History::clear();
       $_SESSION['dayCount'] = 0;
+
+        //〜〜〜〜〜〜〜〜〜〜リスタートボタンを押した場合（ここまで）
+
     }else{
     
+  //=============（リスタートボタンを押した場合）じゃないとき=====================
 
-    //ゲーム選択画面
-      if($startFlg){
+
+
+    //========================ゲーム選択画面======================
+    //  （$startFlg　は、野菜選択したときにtrue。）
+
+    if($startFlg){
     switch($_POST['choiceVeg']){
       case 'tomato':
       $_SESSION['choiceVeg'] = 0;
@@ -305,16 +332,8 @@ if(empty($_POST)){
     if(!empty($_POST['weather'])){
     setWeather();
     }
-  
-    //デバッグ関数
-    error_log('POSTされた！');
-    debug('changeFlg　：' .print_r($changeFlg,true));
-    debug('choiceGameFlg　：' .print_r($choiceGameFlg,true));
-    debug('startFlg　：' .print_r($startFlg,true));
-    debug('restartFlg　：' .print_r($restartFlg,true));
-    debug('resultFlg　：' .print_r($resultFlg,true));
-    debug('post内容　：' .print_r($_POST,true));
-    debug('セッション内容' .print_r($_SESSION,true));
+
+
 
     //ゲームスタートした場合
     if($startFlg){

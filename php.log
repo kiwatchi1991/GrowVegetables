@@ -97994,3 +97994,984 @@ Stack trace:
 )
 
 [09-Aug-2019 18:45:11 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[10-Aug-2019 13:04:04 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:04:04 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:04:04 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:04:04 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:04:04 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:04:04 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choice] => choice
+)
+
+[10-Aug-2019 13:04:04 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+    [history] => ①　水やりしました<br>②　天気：　雨です<br>
+)
+
+[10-Aug-2019 13:04:14 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:04:14 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:04:14 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:04:14 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:04:14 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:04:14 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [restart] => リスタート
+)
+
+[10-Aug-2019 13:04:14 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 11
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:04:15 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:04:15 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:04:15 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:04:15 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:04:15 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:04:15 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choice] => choice
+)
+
+[10-Aug-2019 13:04:15 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:04:23 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:04:23 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:04:23 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:04:23 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:04:23 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:04:23 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [restart] => リスタート
+)
+
+[10-Aug-2019 13:04:23 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 11
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:05:53 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:05:53 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:05:53 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:05:53 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:05:53 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:05:53 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choice] => choice
+)
+
+[10-Aug-2019 13:05:53 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:05:55 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:05:55 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:05:55 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:05:55 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:05:55 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:05:55 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [restart] => リスタート
+)
+
+[10-Aug-2019 13:05:55 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 11
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:11:47 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:11:47 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:11:47 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:11:47 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:11:47 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:11:47 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [restart] => リスタート
+)
+
+[10-Aug-2019 13:11:47 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:11:48 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:11:48 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:11:48 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:11:48 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:11:48 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:11:48 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choice] => choice
+)
+
+[10-Aug-2019 13:11:48 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:11:54 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:11:54 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 260
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:11:54 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:11:54 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:11:54 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:11:54 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choiceVeg] => tomato
+    [choiceSoil] => soilA
+    [choice] => はじめる
+)
+
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 290
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:11:54 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[10-Aug-2019 13:12:46 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:12:46 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:12:46 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:12:46 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:12:46 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:12:46 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 265
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choiceVeg] => tomato
+    [choiceSoil] => soilA
+    [choice] => はじめる
+)
+
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 2
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+    [history] => 「トマト」　を育てよう！<br>「土A」　をえらびました！<br>
+)
+
+[10-Aug-2019 13:12:46 Asia/Tokyo] デバッグ：天気セッション！！！晴れ
+[10-Aug-2019 13:12:48 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:12:48 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:12:48 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:12:48 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:12:48 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:12:48 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 265
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [restart] => リスタート
+)
+
+[10-Aug-2019 13:12:48 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+    [history] => 「トマト」　を育てよう！<br>「土A」　をえらびました！<br>
+)
+
+[10-Aug-2019 13:12:49 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:12:49 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:12:49 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:12:49 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:12:49 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:12:49 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 265
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choice] => choice
+)
+
+[10-Aug-2019 13:12:49 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:12:51 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:12:51 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:12:51 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:12:51 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:12:51 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:12:51 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 265
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [choiceVeg] => tomato
+    [choiceSoil] => soilA
+    [choice] => はじめる
+)
+
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 0
+            [solar:protected] => 10
+            [name:protected] => 晴れ
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+)
+
+[10-Aug-2019 13:12:51 Asia/Tokyo] デバッグ：天気セッション！！！雨
+[10-Aug-2019 13:12:54 Asia/Tokyo] POSTされた！
+[10-Aug-2019 13:12:54 Asia/Tokyo] PHP Notice:  Undefined variable: changeFlg in /Applications/MAMP/htdocs/Grow/index.php on line 261
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：changeFlg　：
+[10-Aug-2019 13:12:54 Asia/Tokyo] PHP Notice:  Undefined variable: choiceGameFlg in /Applications/MAMP/htdocs/Grow/index.php on line 262
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：choiceGameFlg　：
+[10-Aug-2019 13:12:54 Asia/Tokyo] PHP Notice:  Undefined variable: startFlg in /Applications/MAMP/htdocs/Grow/index.php on line 263
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：startFlg　：
+[10-Aug-2019 13:12:54 Asia/Tokyo] PHP Notice:  Undefined variable: restartFlg in /Applications/MAMP/htdocs/Grow/index.php on line 264
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：restartFlg　：
+[10-Aug-2019 13:12:54 Asia/Tokyo] PHP Notice:  Undefined variable: resultFlg in /Applications/MAMP/htdocs/Grow/index.php on line 265
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：resultFlg　：
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：post内容　：Array
+(
+    [action] => water
+    [weather] => rain
+)
+
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：セッション内容Array
+(
+    [knockDownCount] => 0
+    [vegetable] => Vegetable Object
+        (
+            [name:protected] => トマト
+        )
+
+    [soil] => Soil Object
+        (
+            [water:protected] => 50
+            [n:protected] => 50
+            [p:protected] => 50
+            [k:protected] => 50
+            [Ca:protected] => 30
+            [solar:protected] => 20
+            [name:protected] => 土A
+        )
+
+    [weather] => Weather Object
+        (
+            [water:protected] => 30
+            [solar:protected] => 0
+            [name:protected] => 雨
+        )
+
+    [human] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Human
+            [sex:protected] => 1
+            [name:protected] => 勇者見習い
+            [hp:protected] => 500
+            [attackMin:protected] => 40
+            [attackMax:protected] => 120
+        )
+
+    [monster] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => Monster
+            [img:protected] => img/monster05.png
+            [name:protected] => スカルフェイス
+            [hp:protected] => 150
+            [attackMin:protected] => 
+            [attackMax:protected] => 
+            [attack:protected] => 31
+        )
+
+    [dayCount] => 0
+    [growLevel] => 1
+    [choiceVeg] => 0
+    [choiceSoil] => 0
+    [history] => 「トマト」　を育てよう！<br>「土A」　をえらびました！<br>
+)
+
+[10-Aug-2019 13:12:54 Asia/Tokyo] デバッグ：天気セッション！！！雨
